@@ -12,7 +12,11 @@
     "global_availability": "local",
     "manufacturing_notes": "Made by fermenting corn (jora), sometimes with saliva for enzymes in traditional methods",
     "consumption_patterns": ["ritual", "festival", "community-bonding"],
-    "regional_identity": "Andean"
+    "regional_identity": "Andean",
+    "overall_risk": "low-moderate",
+    "safety_notes": ["Low ABV but hygiene standards vary significantly in rural settings", "Unfiltered nature can be heavy on the digestive system"],
+    "risk_factors": ["Bacterial contamination in informal 'Chicherias'", "Potential for active fermentation causing bloating"],
+    "recommendations": ["Look for established community Chicherias (indicated by a red flag/flower on a pole)", "Avoid if you have a very sensitive stomach for unfiltered ferments"]
   },
   {
     "id": "makgeolli",
@@ -27,7 +31,11 @@
     "global_availability": "regional",
     "manufacturing_notes": "Unfiltered, so it's cloudy and continues fermenting",
     "consumption_patterns": ["with-pancakes", "casual", "traditional"],
-    "regional_identity": "Korean"
+    "regional_identity": "Korean",
+    "overall_risk": "low",
+    "safety_notes": ["Low ABV makes it very manageable", "Contains lactobacillus and fiber, often considered a 'healthy' alcohol"],
+    "risk_factors": ["High carbonation can cause rapid fullness", "Standard alcohol dehydration"],
+    "recommendations": ["Gently shake or swirl before pouring to mix the sediment", "Excellent for low-intensity social sessions"]
   },
   {
     "id": "sake-nihonshu",
@@ -42,7 +50,11 @@
     "global_availability": "widespread",
     "manufacturing_notes": "Polished rice fermented with koji mold",
     "consumption_patterns": ["ceremonial", "with-meals", "warm-or-cold"],
-    "regional_identity": "Japanese"
+    "regional_identity": "Japanese",
+    "overall_risk": "moderate",
+    "safety_notes": ["ABV is much higher than beer (similar to wine)", "Very smooth flavor can lead to drinking faster than intended"],
+    "risk_factors": ["Rapid intoxication if treated like beer", "Dehydration"],
+    "recommendations": ["Sip from small cups (ochoko) to regulate pace", "Match the temperature (hot/cold) to the season for the best experience"]
   },
   {
     "id": "palm-wine-tuak",
@@ -53,11 +65,15 @@
     "origin": "West Africa, Southeast Asia, South Asia",
     "flavor_profile": ["sweet", "milky", "effervescent", "earthy"],
     "typical_setting": ["village-gathering", "market", "traditional-ceremony", "palm-grove"],
-    "cultural_notes": "Sap tapped from palm trees that ferments naturally within hours. Known by many names: Tuak (Indonesia), Toddy (India/Sri Lanka), Matango (Cameroon), Emma (Ghana), Nsafufuo (Nigeria). Central to social life in palm-growing regions.",
+    "cultural_notes": "Sap tapped from palm trees that ferments naturally within hours. Central to social life in palm-growing regions.",
     "global_availability": "local",
     "manufacturing_notes": "Tapped from palm trees, ferments rapidly",
     "consumption_patterns": ["social", "fresh-is-best", "traditional"],
-    "regional_identity": "Pan-tropical"
+    "regional_identity": "Pan-tropical",
+    "overall_risk": "moderate",
+    "safety_notes": ["Potency increases throughout the day as it ferments", "Risk of adulteration in commercial street markets"],
+    "risk_factors": ["Hygiene of tapping equipment", "Unpredictable alcohol levels in late-day batches"],
+    "recommendations": ["Consume as early in the day as possible for the freshest, lowest-ABV experience", "Buy from trusted local sources"]
   },
   {
     "id": "marula-wine",
@@ -71,8 +87,12 @@
     "cultural_notes": "Traditional wine made from marula fruit. Elephants famously love the fermented fruit. Harvest season brings communities together.",
     "global_availability": "rare",
     "manufacturing_notes": "Fruit ferments naturally, often in containers",
-    "consumption_patterns": ["seasonal", "community-event"],
-    "regional_identity": "Southern African"
+    "consumption_patterns": ["seasonal", "community-event", "harvest-celebration"],
+    "regional_identity": "Southern African",
+    "overall_risk": "low",
+    "safety_notes": ["Very low alcohol content", "Usually high in Vitamin C from the fruit"],
+    "risk_factors": ["Wild yeast can cause minor digestive upset in visitors"],
+    "recommendations": ["Best enjoyed during the peak harvest season (Jan-March)"]
   },
   {
     "id": "sato",
@@ -83,10 +103,15 @@
     "origin": "Thailand, Laos",
     "flavor_profile": ["sweet", "sour", "fizzy", "rice-forward"],
     "typical_setting": ["thai-festival", "rural-celebration", "north-east-thailand"],
-    "cultural_notes": "Thai rice wine, similar to Lao-Lao but fermented rather than distilled. Popular in Isan region. Often homemade for festivals.",
+    "cultural_notes": "Thai rice wine, similar to Lao-Lao but fermented rather than distilled. Popular in Isan region.",
     "global_availability": "rare",
     "manufacturing_notes": "Fermented glutinous rice with starter culture",
-    "regional_identity": "Thai/Laotian"
+    "consumption_patterns": ["festival-drinking", "rural-socializing"],
+    "regional_identity": "Thai/Laotian",
+    "overall_risk": "low-moderate",
+    "safety_notes": ["High sugar content can lead to a quick buzz and potential headache", "ABV is higher than most beers"],
+    "risk_factors": ["Sugar-alcohol interaction", "Active cultures can cause bloating"],
+    "recommendations": ["Drink with spicy Isan food to balance the sweetness", "Hydrate well due to the sugar"]
   },
   {
     "id": "toddy-pakistan-sindh",
@@ -97,9 +122,14 @@
     "origin": "Pakistan (Sindh province)",
     "flavor_profile": ["sweet", "fermented", "palm-forward"],
     "typical_setting": ["sindhi-village", "harvest-season", "traditional-gathering"],
-    "cultural_notes": "Traditional palm wine of Sindh, despite restrictions. Tapped from date palms, consumed fresh before fermentation advances. Part of Sindhi cultural heritage.",
+    "cultural_notes": "Traditional palm wine of Sindh, despite restrictions. Tapped from date palms.",
     "global_availability": "very rare",
     "legal_notes": "Restricted in Pakistan, consumed discreetly",
-    "regional_identity": "Sindhi"
+    "consumption_patterns": ["private-socializing", "traditional-celebration"],
+    "regional_identity": "Sindhi",
+    "overall_risk": "high",
+    "safety_notes": ["Primary risk is legal and social due to local laws", "Quality control is entirely informal"],
+    "risk_factors": ["Legal consequences of consumption", "Potential for poor sanitation in hidden production"],
+    "recommendations": ["Only consume if offered in a trusted private residence", "Be extremely discreet and aware of local laws and customs"]
   }
 ]

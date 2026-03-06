@@ -1,52 +1,46 @@
 <!-- src/routes/events/+page.svelte -->
 <script lang="ts">
   import eventTypes from '$lib/data/event-types.json';
-
-  type EventType = {
-    slug: string;
-    name: string;
-    touch?: string;
-    solo?: string;
-    vibe?: string[];
-    description?: string;
-  };
-
+  type EventType = { slug: string; name: string; touch?: string; solo?: string; vibe?: string[]; description?: string; };
   const events = eventTypes as EventType[];
 </script>
 
-<!-- Sticky header -->
-<div class="sticky top-0 z-30 bg-yellow-50 px-4 pt-3 pb-2 shadow-md border-b border-yellow-100 space-y-1">
-  <a href="/" class="text-blue-700 font-semibold">← Back to Home</a>
-
-  <h1 class="text-xl font-semibold text-blue-700">Event Types</h1>
-
-  <p class="text-sm text-gray-700">Explore social experiences and group dynamics.</p>
+<div class="sticky top-0 z-30 bg-yellow-50 px-4 pt-4 pb-3 shadow-sm border-b border-yellow-100">
+  <div class="max-w-4xl mx-auto flex flex-col gap-2">
+    <a href="/" class="text-vibe-blue text-sm">← Back to Home</a>
+    <h1 class="text-2xl font-bold text-vibe-brown">Event Types</h1>
+    <p class="text-sm text-vibe-brown/70 italic">Explore social experiences and group dynamics.</p>
+  </div>
 </div>
 
-<!-- Page background -->
-<div class="min-h-screen bg-yellow-50/50 px-4 py-6">
-
+<div class="min-h-screen bg-yellow-50/50 px-4 py-8">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
     {#each events as ev}
       <a
         href={`/events/${ev.slug}`}
-        class="bg-white border border-yellow-100 rounded-lg p-4 shadow-sm hover:shadow-md transition"
+        class="bg-white border border-yellow-100 rounded-xl p-5 shadow-sm hover:shadow-md transition-all hover:border-yellow-300"
       >
-        <h2 class="text-lg font-medium text-gray-900">{ev.name}</h2>
+        <h2 class="text-xl font-bold text-vibe-brown">{ev.name}</h2>
 
-        {#if ev.touch}
-          <p class="text-sm text-gray-500 mt-1">Touch Level: {ev.touch}</p>
-        {/if}
-
-        {#if ev.solo}
-          <p class="text-sm text-gray-500">Solo Comfort: {ev.solo}</p>
-        {/if}
+        <div class="flex flex-wrap gap-x-4 gap-y-1 mt-2">
+          {#if ev.touch}
+            <p class="text-sm text-vibe-brown/60 font-medium italic">Touch: {ev.touch}</p>
+          {/if}
+          {#if ev.solo}
+            <p class="text-sm text-vibe-brown/60 font-medium">Solo: {ev.solo}</p>
+          {/if}
+        </div>
 
         {#if ev.vibe}
-          <p class="text-sm mt-2 text-gray-700">{ev.vibe.join(', ')}</p>
+          <div class="flex flex-wrap gap-1 mt-3">
+            {#each ev.vibe as v}
+              <span class="text-xs bg-yellow-50 text-vibe-brown/80 border border-yellow-100 px-2 py-0.5 rounded-full">
+                {v}
+              </span>
+            {/each}
+          </div>
         {/if}
       </a>
     {/each}
   </div>
-
 </div>

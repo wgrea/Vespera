@@ -5,9 +5,44 @@
     "slug": "dive-bar",
     "pressure_level": "low",
     "vibe": ["dim lighting", "grungy", "authentic", "no-frills", "cash-only energy"],
-    "social_dynamics": "Regulars at the bar, low expectations, easy conversation with strangers, jukebox selections",
-    "typical_drinks": ["beer", "well-drinks", "shots", "beer-and-a-shot specials"],
-    "cultural_notes": "Working class origins, now beloved by all. The great equalizer of drinking establishments. Usually has a colorful history and regular characters."
+    "social_dynamics": "Regulars at the bar, low expectations, easy conversation",
+    "typical_drinks": ["beer", "well-drinks", "shots"],
+    "overall_risk": "moderate",
+    "safety_notes": ["Dim lighting hides floor hazards", "Unpredictable regulars"],
+    "recommendations": ["Bring cash", "Be respectful to 'locals'"],
+    "sensory_intensity": "moderate",
+    "peak_hours": "10:00 PM - 2:00 AM",
+    "solo_comfort": 8
+  },
+  {
+    "id": "hi-fi-listening-bar",
+    "name": "Hi-Fi Listening Bar",
+    "slug": "hi-fi-listening-bar",
+    "pressure_level": "low",
+    "vibe": ["intimate", "audiophile", "dim", "focused", "vintage"],
+    "social_dynamics": "Quiet conversation, music is the priority",
+    "typical_drinks": ["cocktails", "whiskey", "natural-wine", "beer"],
+    "overall_risk": "low",
+    "safety_notes": ["Very low social friction", "Intimate and controlled"],
+    "recommendations": ["Keep voice levels low", "Respect listening rules"],
+    "sensory_intensity": "moderate",
+    "peak_hours": "8:00 PM - 11:00 PM",
+    "solo_comfort": 9
+  },
+  {
+    "id": "indian-telugu-sports-bar",
+    "name": "Indian / Telugu Sports Bar",
+    "slug": "indian-telugu-sports-bar",
+    "pressure_level": "moderate-high",
+    "vibe": ["intense", "cricket-fever", "family-friendly-by-day", "electric-during-matches"],
+    "social_dynamics": "Cricket matches create collective euphoria",
+    "typical_drinks": ["beer", "whiskey"],
+    "overall_risk": "moderate",
+    "safety_notes": ["High density crowds during matches", "Extreme noise levels"],
+    "recommendations": ["Arrive early for a seat", "Great for group bonding"],
+    "sensory_intensity": "high",
+    "peak_hours": "Match duration",
+    "solo_comfort": 7
   },
   {
     "id": "irish-pub",
@@ -17,17 +52,13 @@
     "vibe": ["warm", "wooden", "welcoming", "cozy", "traditional"],
     "social_dynamics": "Communal tables, conversation flows easily, often live traditional music, strangers become friends",
     "typical_drinks": ["guinness", "irish-whiskey", "beer", "irish-coffee"],
-    "cultural_notes": "A home away from home. Irish pubs worldwide follow certain design principles but each has unique character. Central to Irish social life."
-  },
-  {
-    "id": "hi-fi-listening-bar",
-    "name": "Hi-Fi Listening Bar",
-    "slug": "hi-fi-listening-bar",
-    "pressure_level": "low",
-    "vibe": ["intimate", "audiophile", "dim", "focused", "vintage"],
-    "social_dynamics": "Quiet conversation, music is the priority, people face the speakers, records are handled with care",
-    "typical_drinks": ["cocktails", "whiskey", "natural-wine", "beer"],
-    "cultural_notes": "Inspired by Japanese jazz kissa culture. The music selection and sound system are as important as the drinks. A place to listen, not just drink."
+    "cultural_notes": "A home away from home. Central to Irish social life and highly welcoming to outsiders.",
+    "overall_risk": "low",
+    "safety_notes": ["Generally very safe and communal", "Risk is mostly related to over-drinking due to the 'homely' vibe"],
+    "recommendations": ["Opt for a booth for a quiet night", "Great for a solo pint and a book", "Engage with the bartender if sitting at the rail"],
+    "sensory_intensity": "moderate",
+    "peak_hours": "8:00 PM - 11:30 PM",
+    "solo_comfort": 10
   },
   {
     "id": "cigar-lounge",
@@ -37,7 +68,13 @@
     "vibe": ["leather chairs", "rich", "masculine", "slow-paced", "wood-paneled"],
     "social_dynamics": "Business discussions, leisurely conversations, shared appreciation of cigars, slower pace",
     "typical_drinks": ["whiskey", "scotch", "bourbon", "brandy", "port"],
-    "cultural_notes": "A space for lingering. Cigar culture emphasizes taking time, enjoying craftsmanship, and conversation. Often attached to hotels or tobacco shops."
+    "cultural_notes": "A space for lingering and enjoying craftsmanship. Often has a sophisticated, quiet atmosphere.",
+    "overall_risk": "low",
+    "safety_notes": ["Significant secondhand smoke exposure", "Slow-paced; low-risk social environment"],
+    "recommendations": ["Eat a heavy meal before smoking", "Stay hydrated", "Respect the quiet, leisurely pace of others"],
+    "sensory_intensity": "low",
+    "peak_hours": "5:00 PM - 9:00 PM",
+    "solo_comfort": 8
   },
   {
     "id": "barcade",
@@ -47,7 +84,13 @@
     "vibe": ["nostalgic", "playful", "energetic", "retro", "colorful"],
     "social_dynamics": "Friendly competition, groups playing games, quarters on the machines, high scores bragged about",
     "typical_drinks": ["craft-beer", "simple-cocktails", "cans"],
-    "cultural_notes": "The perfect blend of nostalgia and nightlife. Classic arcade games meet modern craft beer. Popular for dates and group outings."
+    "cultural_notes": "The perfect blend of nostalgia and nightlife. Popular for dates and solo gaming.",
+    "overall_risk": "low",
+    "safety_notes": ["Distraction by games can lead to leaving drinks or bags unattended", "Darker corners around machines can be less visible"],
+    "recommendations": ["Use cup holders provided on machines", "Keep your bag strapped to you", "Great for solo players—easy to blend in while gaming"],
+    "sensory_intensity": "high",
+    "peak_hours": "9:00 PM - 12:00 AM",
+    "solo_comfort": 9
   },
   {
     "id": "sports-bar",
@@ -57,7 +100,13 @@
     "vibe": ["energetic", "screaming-at-tvs", "team-colors", "rowdy-during-games"],
     "social_dynamics": "Game-day energy, strangers high-fiving, focused on screens during plays, lively during timeouts",
     "typical_drinks": ["beer", "beer-pitchers", "wings-and-beer"],
-    "cultural_notes": "The modern town square for sports fans. Multiple screens showing different games, loyalty to local teams, big game days are electric."
+    "cultural_notes": "The modern town square for sports fans. Big game days are electric and loud.",
+    "overall_risk": "moderate",
+    "safety_notes": ["High noise levels", "Potential for 'rowdy' behavior during high-stakes plays"],
+    "recommendations": ["Choose a seat with a clear view of the exit", "Ignore provocations from rival fans", "Arrive early if you want a seat at the bar"],
+    "sensory_intensity": "high",
+    "peak_hours": "Game times / 1:00 PM - 10:00 PM",
+    "solo_comfort": 8
   },
   {
     "id": "latin-bar-kitchen",
@@ -67,16 +116,12 @@
     "vibe": ["vibrant", "colorful", "energetic", "salsa-beats", "festive"],
     "social_dynamics": "Dancing breaks out, groups celebrating, food and drinks flow together, lively conversations",
     "typical_drinks": ["margarita", "caipirinha", "mojito", "tequila", "rum"],
-    "cultural_notes": "Where Latin American hospitality shines. Often transforms from restaurant to dance space as night progresses. Family-like atmosphere."
-  },
-  {
-    "id": "indian-telugu-sports-bar",
-    "name": "Indian / Telugu Sports Bar",
-    "slug": "indian-telugu-sports-bar",
-    "pressure_level": "moderate-high",
-    "vibe": ["intense", "cricket-fever", "family-friendly-by-day", "electric-during-matches"],
-    "social_dynamics": "Cricket matches create collective euphoria, multiple generations together, food is central",
-    "typical_drinks": ["beer", "whiskey", "sometimes-limited"],
-    "cultural_notes": "A unique hybrid found in Telugu communities. During cricket matches, especially India/Pakistan games, the energy is unmatched. Family dining by day, intense sports viewing during matches."
+    "cultural_notes": "Transitions from dining to dancing; can get crowded and hectic as the night progresses.",
+    "overall_risk": "low",
+    "safety_notes": ["Transitions from restaurant to dance space can be hectic", "Be mindful of children/families earlier in the evening"],
+    "recommendations": ["Secure your table early", "Keep your belongings close as the dance floor expands", "Great for those who enjoy food and movement"],
+    "sensory_intensity": "moderate",
+    "peak_hours": "7:00 PM - 11:00 PM",
+    "solo_comfort": 7
   }
 ]

@@ -10,7 +10,11 @@
     "typical_setting": ["pub", "bar", "casual-drinking", "sports-event"],
     "cultural_notes": "The most popular beer style worldwide. Pilsner originated in Plzeň, Czechia in 1842.",
     "global_availability": "widespread",
-    "consumption_patterns": ["everyday-drinking", "social-drinking"],
+    "consumption_patterns": ["everyday-drinking", "social-drinking", "meal-pairing"],
+    "overall_risk": "low",
+    "safety_notes": ["Low ABV makes it easier to manage consumption", "Standard hydration rules apply"],
+    "risk_factors": ["Dehydration", "Standard social impairment"],
+    "recommendations": ["Ideal for long social sessions", "Alternate with water if drinking in hot climates"],
     "regional_identity": "Central European"
   },
   {
@@ -24,8 +28,11 @@
     "typical_setting": ["craft-beer-bar", "brewery-taproom", "casual-pub"],
     "cultural_notes": "Originally brewed with extra hops to preserve beer during long sea voyages to India.",
     "global_availability": "widespread",
-    "manufacturing_notes": "High hop content, often dry-hopped for aroma",
-    "consumption_patterns": ["craft-beer-enthusiasts", "after-work-drink"]
+    "consumption_patterns": ["flavor-tasting", "after-work-drink", "social-sipping"],
+    "overall_risk": "moderate",
+    "safety_notes": ["Higher alcohol content than standard lagers", "Can lead to faster intoxication than expected"],
+    "risk_factors": ["Dehydration due to higher ABV", "High bitterness can mask alcohol 'burn'"],
+    "recommendations": ["Limit consumption to 1-2 per hour", "Eat a meal beforehand due to higher acidity/hops"]
   },
   {
     "id": "stout-porter",
@@ -38,7 +45,11 @@
     "typical_setting": ["pub", "winter-drinking", "cozy-atmosphere"],
     "cultural_notes": "Stout evolved from porter. Guinness from Ireland is the world's most famous stout.",
     "global_availability": "widespread",
-    "consumption_patterns": ["slow-sipping", "dessert-pairing"]
+    "consumption_patterns": ["slow-sipping", "dessert-pairing", "evening-unwind"],
+    "overall_risk": "low",
+    "safety_notes": ["Filling nature often naturally slows down drinking pace", "Standard beer precautions"],
+    "risk_factors": ["Higher caloric density", "Potential for bloating"],
+    "recommendations": ["Enjoy slowly to appreciate flavor complexity", "Pairs well with heavy food"]
   },
   {
     "id": "light-lager",
@@ -51,7 +62,11 @@
     "typical_setting": ["sports-bar", "bbq", "casual-gatherings"],
     "cultural_notes": "Developed in the 1970s as a lower-calorie alternative to regular lagers.",
     "global_availability": "widespread",
-    "consumption_patterns": ["session-drinking", "health-conscious"]
+    "consumption_patterns": ["session-drinking", "health-conscious", "active-socializing"],
+    "overall_risk": "low",
+    "safety_notes": ["Lowest risk for intoxication per unit", "High water content"],
+    "risk_factors": ["Volume-based intoxication (drinking too many because they feel 'light')"],
+    "recommendations": ["Best for high-heat environments", "Good choice for maintaining awareness in social settings"]
   },
   {
     "id": "craft-ipa",
@@ -64,8 +79,11 @@
     "typical_setting": ["craft-brewery", "beer-festival", "specialty-bar"],
     "cultural_notes": "Part of the American craft beer revolution that began in the 1980s.",
     "global_availability": "widespread",
-    "manufacturing_notes": "Often uses new-world hop varieties",
-    "consumption_patterns": ["craft-enthusiasts", "flavor-seeking"]
+    "consumption_patterns": ["tasting-flights", "enthusiast-sampling", "specialty-pairings"],
+    "overall_risk": "moderate-high",
+    "safety_notes": ["Significant ABV (often 7%+) puts this closer to wine in terms of impact", "Hops can cause digestive sensitivity in some"],
+    "risk_factors": ["High alcohol concentration", "Stealth intoxication due to high flavor masking"],
+    "recommendations": ["Always check the ABV on the tap list", "Treat one pint as roughly 1.5 - 2 standard drinks"]
   },
   {
     "id": "pale-ale",
@@ -78,7 +96,11 @@
     "typical_setting": ["pub", "restaurant", "casual-bar"],
     "cultural_notes": "The original pale ales were developed in England using coke-fired malt.",
     "global_availability": "widespread",
-    "consumption_patterns": ["everyday-drinking"]
+    "consumption_patterns": ["everyday-drinking", "dinner-pairing", "casual-social"],
+    "overall_risk": "low",
+    "safety_notes": ["Standard session beer risk profile", "Predictable ABV range"],
+    "risk_factors": ["Moderate dehydration", "Standard impairment risks"],
+    "recommendations": ["A safe middle-ground for most social occasions"]
   },
   {
     "id": "pilsner-south-america",
@@ -89,9 +111,13 @@
     "origin": "South America",
     "flavor_profile": ["crisp", "light", "refreshing"],
     "typical_setting": ["beach", "outdoor-gatherings", "everyday-meals"],
-    "cultural_notes": "South American pilsners are often lighter and more refreshing than their European counterparts, perfect for hot climates.",
+    "cultural_notes": "South American pilsners are often lighter and more refreshing than their European counterparts.",
     "global_availability": "regional",
-    "regional_identity": "South American"
+    "consumption_patterns": ["outdoor-drinking", "beach-socials", "lunchtime-refreshment"],
+    "overall_risk": "low",
+    "safety_notes": ["Safe for hot climates", "Watch for electrolyte loss if drinking in sun"],
+    "risk_factors": ["Heat exhaustion mask", "Dehydration in sun exposure"],
+    "recommendations": ["Drink alongside plenty of water in tropical heat"]
   },
   {
     "id": "adjunct-lager",
@@ -104,8 +130,11 @@
     "typical_setting": ["mass-market", "sports-events", "casual-drinking"],
     "cultural_notes": "Uses adjuncts like rice or corn to lighten body and flavor. Includes major global brands.",
     "global_availability": "widespread",
-    "manufacturing_notes": "Contains rice or corn in addition to barley",
-    "consumption_patterns": ["mass-market", "price-sensitive"]
+    "consumption_patterns": ["high-volume-socials", "price-sensitive-drinking", "large-crowd-events"],
+    "overall_risk": "low",
+    "safety_notes": ["Predictable and standard impact", "Consistent production standards"],
+    "risk_factors": ["Allergens (corn/rice) for specific individuals", "Fast consumption due to light body"],
+    "recommendations": ["Standard hydration applies"]
   },
   {
     "id": "traditional-lagers-europe",
@@ -116,10 +145,13 @@
     "origin": "Germany, Czechia, Austria",
     "flavor_profile": ["malty", "clean", "balanced", "noble-hop"],
     "typical_setting": ["biergarten", "traditional-pub", "festivals"],
-    "cultural_notes": "Includes German Helles, Czech Světlý ležák, and Vienna Lager. Protected by purity laws in some regions.",
+    "cultural_notes": "Includes German Helles, Czech Světlý ležák, and Vienna Lager.",
     "global_availability": "regional",
-    "manufacturing_notes": "Often brewed according to Reinheitsgebot",
-    "regional_identity": "Central European"
+    "consumption_patterns": ["biergarten-socializing", "traditional-festivals", "community-drinking"],
+    "overall_risk": "low",
+    "safety_notes": ["Consistent quality and ABV", "Often served in larger volumes (Steins)"],
+    "risk_factors": ["Volume risk (large 1L pours)", "Rapid absorption on empty stomach"],
+    "recommendations": ["Eat traditional 'pub food' (pretzels, meats) to buffer alcohol"]
   },
   {
     "id": "trappist-ales",
@@ -132,8 +164,11 @@
     "typical_setting": ["abbey-cafes", "specialty-beer-bars", "contemplative-drinking"],
     "cultural_notes": "Brewed by Trappist monks. Only 14 monasteries worldwide are authorized to use the 'Authentic Trappist Product' logo.",
     "global_availability": "regional",
-    "manufacturing_notes": "Brewed within monastery walls under monk supervision",
-    "consumption_patterns": ["special-occasion", "collectors"]
+    "consumption_patterns": ["special-occasion", "slow-sipping", "collectors"],
+    "overall_risk": "high",
+    "safety_notes": ["Very high ABV (7-11%) disguised by complex sweetness", "Secondary fermentation in the bottle increases carbonation speed"],
+    "risk_factors": ["Rapid cumulative intoxication", "Strong flavor hides high alcohol presence"],
+    "recommendations": ["Treat as a sipping drink, similar to wine", "Limit to one per session if maintaining high alertness"]
   },
   {
     "id": "roggenbier",
@@ -144,10 +179,13 @@
     "origin": "Germany",
     "flavor_profile": ["spicy", "rye", "earthy", "hearty"],
     "typical_setting": ["traditional-german-pub", "specialty-brewery"],
-    "cultural_notes": "A rye beer from Germany, similar to Hefeweizen but made with rye malt instead of wheat. Nearly extinct before craft revival.",
+    "cultural_notes": "A rye beer from Germany, similar to Hefeweizen but made with rye malt. Nearly extinct before craft revival.",
     "global_availability": "regional",
-    "manufacturing_notes": "High rye content can cause sticky mashes",
-    "regional_identity": "German"
+    "consumption_patterns": ["seasonal-drinking", "food-pairing"],
+    "overall_risk": "low",
+    "safety_notes": ["Standard alcohol risk profile", "Hearty body often prevents rapid drinking"],
+    "risk_factors": ["High grain particulate content may cause digestive sensitivity"],
+    "recommendations": ["Excellent pairing with heavy German cuisine", "Standard hydration applies"]
   },
   {
     "id": "joppenbier",
@@ -160,8 +198,11 @@
     "typical_setting": ["historical-reenactments", "specialty-festivals"],
     "cultural_notes": "A historical strong beer from Thuringia, Germany, revived by craft brewers.",
     "global_availability": "rare",
-    "manufacturing_notes": "Historical recipe, often with herbs",
-    "regional_identity": "German"
+    "consumption_patterns": ["festival-tasting", "historical-interest"],
+    "overall_risk": "moderate-high",
+    "safety_notes": ["High residual sugar content can lead to worse hangovers", "High ABV for a traditional style"],
+    "risk_factors": ["Sugar-accelerated alcohol absorption", "Intense herbal profile masks alcohol"],
+    "recommendations": ["Drink alongside high-protein food", "Double your water intake due to sugar content"]
   },
   {
     "id": "sorghum-beer-umqombothi",
@@ -172,11 +213,13 @@
     "origin": "South Africa",
     "flavor_profile": ["sour", "gritty", "earthy", "fermented"],
     "typical_setting": ["traditional-ceremonies", "community-gatherings", "homesteads"],
-    "cultural_notes": "A traditional South African beer made from sorghum and maize. Thick, opaque, and rich in B vitamins. Important in Xhosa culture.",
+    "cultural_notes": "A traditional South African beer made from sorghum and maize. Thick and rich in B vitamins.",
     "global_availability": "local",
-    "manufacturing_notes": "Fermented in traditional pots, not filtered",
-    "consumption_patterns": ["ritual", "community-bonding"],
-    "regional_identity": "South African"
+    "consumption_patterns": ["ritual", "community-bonding", "traditional-use"],
+    "overall_risk": "low",
+    "safety_notes": ["Unfiltered texture is heavy on the stomach", "Low alcohol but consumed in large communal volumes"],
+    "risk_factors": ["Short shelf life; risk of spoilage if not fresh", "Varied hygiene in informal settings"],
+    "recommendations": ["Consume within 48 hours of brewing", "Ensure source is reputable"]
   },
   {
     "id": "millet-beer-bil-bil-pito",
@@ -187,10 +230,13 @@
     "origin": "West Africa",
     "flavor_profile": ["sour", "smoky", "earthy"],
     "typical_setting": ["festivals", "markets", "traditional-gatherings"],
-    "cultural_notes": "Known as Bil Bil in Cameroon and Pito in Ghana and Nigeria. A traditional millet beer central to social life.",
+    "cultural_notes": "Known as Bil Bil in Cameroon and Pito in Ghana. Central to social life.",
     "global_availability": "local",
-    "manufacturing_notes": "Women traditionally brew and sell it",
-    "regional_identity": "West African"
+    "consumption_patterns": ["market-socializing", "daily-refreshment"],
+    "overall_risk": "low",
+    "safety_notes": ["Low ABV makes it relatively safe for long gatherings", "Naturally rich in nutrients"],
+    "risk_factors": ["High acidity can be harsh on an empty stomach", "Informal brewing standards"],
+    "recommendations": ["Drink in social groups to gauge local consumption norms", "Pair with light snacks"]
   },
   {
     "id": "burukutu",
@@ -201,9 +247,13 @@
     "origin": "Nigeria, Ghana",
     "flavor_profile": ["sour", "vinegary", "earthy"],
     "typical_setting": ["rural-areas", "traditional-festivals"],
-    "cultural_notes": "A traditional beer from northern Nigeria and Ghana, made from sorghum or millet. Similar to Pito but with different fermentation.",
+    "cultural_notes": "A traditional beer from northern Nigeria and Ghana made from sorghum or millet.",
     "global_availability": "local",
-    "regional_identity": "West African"
+    "consumption_patterns": ["festive-drinking", "rural-socializing"],
+    "overall_risk": "low",
+    "safety_notes": ["Standard traditional beer risk profile"],
+    "risk_factors": ["Active fermentation can lead to bloating"],
+    "recommendations": ["Standard drinking precautions apply", "Best consumed when freshly made"]
   },
   {
     "id": "lagers-africa",
@@ -214,10 +264,13 @@
     "origin": "Africa",
     "flavor_profile": ["light", "crisp", "refreshing"],
     "typical_setting": ["bars", "shebeens", "social-gatherings"],
-    "cultural_notes": "Major commercial breweries across Africa produce local lagers. Brands like Tusker (Kenya), Star (Nigeria), and Castle (South Africa) are cultural icons.",
+    "cultural_notes": "Major commercial breweries produce icons like Tusker and Star.",
     "global_availability": "regional",
-    "consumption_patterns": ["everyday-drinking", "social"],
-    "regional_identity": "African"
+    "consumption_patterns": ["everyday-drinking", "sports-viewing", "socializing"],
+    "overall_risk": "low",
+    "safety_notes": ["Consistent industrial standards", "Safe for general consumption"],
+    "risk_factors": ["Standard alcohol dehydration", "Rapid warming in tropical climates"],
+    "recommendations": ["A reliable and safe 'default' drink in the region"]
   },
   {
     "id": "mid-strength-beer-australia",
@@ -228,10 +281,13 @@
     "origin": "Australia",
     "flavor_profile": ["light", "refreshing", "easy-drinking"],
     "typical_setting": ["pubs", "barbecues", "outdoor-events"],
-    "cultural_notes": "Popular in Australia for session drinking, especially in hot weather. Allows for longer drinking sessions.",
+    "cultural_notes": "Popular for session drinking in hot weather to stay safe and hydrated.",
     "global_availability": "regional",
-    "consumption_patterns": ["session-drinking", "outdoor"],
-    "regional_identity": "Australian"
+    "consumption_patterns": ["session-drinking", "beach-days", "outdoor-socials"],
+    "overall_risk": "low",
+    "safety_notes": ["Lower ABV significantly reduces the rate of impairment", "High drinkability"],
+    "risk_factors": ["Low ABV can lead to over-confidence in driving (check local laws)"],
+    "recommendations": ["Ideal for maintaining a consistent buzz without losing alertness"]
   },
   {
     "id": "zero-alcohol-beer",
@@ -242,10 +298,13 @@
     "origin": "Global",
     "flavor_profile": ["malt-forward", "sometimes-thin"],
     "typical_setting": ["designated-driver", "health-conscious", "work-lunches"],
-    "cultural_notes": "Growing trend worldwide as health consciousness rises. Technology has improved flavor dramatically.",
+    "cultural_notes": "Growing trend as health consciousness rises. Technology has improved flavor.",
     "global_availability": "widespread",
-    "manufacturing_notes": "De-alcoholized or brewed to low alcohol",
-    "consumption_patterns": ["health-trend", "sober-curious"]
+    "consumption_patterns": ["sober-curious", "hydration-pacing", "fitness-lifestyle"],
+    "overall_risk": "low",
+    "safety_notes": ["Safe for nearly all users, including those on many medications", "No motor skill impairment"],
+    "risk_factors": ["Trace alcohol (<0.5%) can be relevant for specific clinical conditions"],
+    "recommendations": ["Use to 'bridge' the gap between alcoholic drinks to slow total consumption"]
   },
   {
     "id": "murree-lager-pakistan",
@@ -256,9 +315,13 @@
     "origin": "Pakistan",
     "flavor_profile": ["light", "crisp", "malty"],
     "typical_setting": ["non-muslim-areas", "hotels-with-permits", "export"],
-    "cultural_notes": "Pakistan's oldest brewery, established in 1860. One of the few legal alcohol producers in the country, primarily for non-Muslims and export.",
+    "cultural_notes": "Pakistan's oldest brewery. Primarily for non-Muslims and export.",
     "global_availability": "limited",
-    "legal_notes": "Only available to non-Muslims with permits in Pakistan",
-    "regional_identity": "Pakistani"
+    "consumption_patterns": ["permit-restricted-drinking", "private-socializing"],
+    "overall_risk": "moderate",
+    "safety_notes": ["Major risks are legal/regulatory rather than chemical", "Standard lager alcohol impact"],
+    "risk_factors": ["Legal consequences in restricted jurisdictions", "Permit non-compliance"],
+    "recommendations": ["Only consume in legally designated areas", "Keep all purchase permits on your person"],
+    "legal_notes": "Only available to non-Muslims with permits in Pakistan"
   }
 ]

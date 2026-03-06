@@ -2,7 +2,6 @@
 <script lang="ts">
   import type { Drink } from '$lib/types';
   import DrinkCard from './DrinkCard.svelte';
-
   export let drinks: Drink[];
 </script>
 
@@ -13,8 +12,7 @@
 </div>
 
 {#if drinks.length === 0}
-  <div class="text-center py-12 text-gray-500">
-    No drinks found.
+  <div class="text-center py-12 text-vibe-brown/60 italic">
+    No drinks found in the database.
   </div>
 {/if}
-

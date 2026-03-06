@@ -10,7 +10,11 @@
     "typical_setting": ["dinner", "restaurant", "romantic-evening", "wine-bar"],
     "cultural_notes": "Widely produced around the world with countless grape varieties and styles.",
     "global_availability": "widespread",
-    "consumption_patterns": ["meal-pairing", "aging", "collecting"]
+    "consumption_patterns": ["meal-pairing", "aging", "collecting"],
+    "overall_risk": "low-moderate",
+    "safety_notes": ["Contains tannins and histamines which can trigger headaches in sensitive individuals", "Usually higher ABV than white wine"],
+    "risk_factors": ["Dehydration", "Tannin sensitivity", "Teeth staining"],
+    "recommendations": ["Drink one glass of water for every glass of wine", "Pair with protein (like meat or cheese) to soften the impact of tannins"]
   },
   {
     "id": "white-wine",
@@ -22,7 +26,11 @@
     "flavor_profile": ["crisp", "citrus", "floral", "mineral"],
     "typical_setting": ["aperitif", "seafood-dinner", "summer-gathering"],
     "cultural_notes": "Often served chilled, popular in warmer months and with lighter fare.",
-    "global_availability": "widespread"
+    "global_availability": "widespread",
+    "overall_risk": "low-moderate",
+    "safety_notes": ["High acidity can cause heartburn or acid reflux", "Often easier to drink quickly due to chilled temperature"],
+    "risk_factors": ["Acid reflux", "Deceptive drinkability"],
+    "recommendations": ["Sip slowly to appreciate the aromatics", "Avoid drinking on an empty stomach due to high acidity"]
   },
   {
     "id": "sparkling-wine-champagne",
@@ -33,9 +41,12 @@
     "origin": "France (Champagne), Global",
     "flavor_profile": ["bubbly", "crisp", "yeasty", "green-apple"],
     "typical_setting": ["celebration", "toast", "wedding", "new-years"],
-    "cultural_notes": "Champagne is specifically from the Champagne region of France. Other regions produce excellent sparkling wines like Cava (Spain) and Prosecco (Italy).",
+    "cultural_notes": "Champagne is specifically from the Champagne region of France. Cava and Prosecco are popular regional alternatives.",
     "global_availability": "widespread",
-    "manufacturing_notes": "Méthode traditionnelle for Champagne"
+    "overall_risk": "moderate",
+    "safety_notes": ["Carbonation causes alcohol to be absorbed into the bloodstream faster", "Pressure in the bottle requires careful opening"],
+    "risk_factors": ["Rapid intoxication (the 'bubbly' effect)", "Bloating from CO2"],
+    "recommendations": ["Limit consumption during toasts to avoid a 'spike' in blood alcohol", "Always keep the bottle pointed away from people when opening"]
   },
   {
     "id": "malbec",
@@ -46,9 +57,13 @@
     "origin": "Argentina, France",
     "flavor_profile": ["plum", "blackberry", "chocolate", "smooth"],
     "typical_setting": ["steak-dinner", "wine-bar", "restaurant"],
-    "cultural_notes": "Argentina's signature grape, though originally from France. Thrives at high altitudes in Mendoza.",
+    "cultural_notes": "Argentina's signature grape. Thrives at high altitudes in Mendoza.",
     "global_availability": "widespread",
-    "regional_identity": "Argentinian"
+    "regional_identity": "Argentinian",
+    "overall_risk": "moderate",
+    "safety_notes": ["Generally higher ABV (14%+) than many European reds", "High pigment content"],
+    "risk_factors": ["Higher alcohol-per-glass ratio", "Dehydration"],
+    "recommendations": ["Pair with hearty foods to balance the higher alcohol content"]
   },
   {
     "id": "carmenere",
@@ -59,9 +74,13 @@
     "origin": "Chile",
     "flavor_profile": ["red-berry", "bell-pepper", "spice", "smooth"],
     "typical_setting": ["chilean-restaurant", "wine-tasting"],
-    "cultural_notes": "Chile's signature grape, thought to be extinct until rediscovered in Chile in 1994. Often mistaken for Merlot.",
+    "cultural_notes": "Chile's signature grape, rediscovered in 1994. Often mistaken for Merlot.",
     "global_availability": "regional",
-    "regional_identity": "Chilean"
+    "regional_identity": "Chilean",
+    "overall_risk": "low-moderate",
+    "safety_notes": ["Standard red wine risks; generally moderate tannins"],
+    "risk_factors": ["Tannin-related headaches"],
+    "recommendations": ["Excellent with spiced or peppery dishes"]
   },
   {
     "id": "ice-wine",
@@ -72,9 +91,12 @@
     "origin": "Canada, Germany",
     "flavor_profile": ["sweet", "intense", "honey", "tropical"],
     "typical_setting": ["dessert", "special-occasion", "gift"],
-    "cultural_notes": "Made from grapes frozen on the vine. Canada and Germany are the largest producers. Very labor-intensive and expensive.",
+    "cultural_notes": "Made from grapes frozen on the vine. Canada and Germany are the largest producers.",
     "global_availability": "regional",
-    "manufacturing_notes": "Grapes pressed while frozen"
+    "overall_risk": "low",
+    "safety_notes": ["Extremely high sugar content can cause a 'sugar crash' or headache", "Small serving sizes (2oz) naturally limit alcohol intake"],
+    "risk_factors": ["Blood sugar spikes", "Dental sensitivity to sugar/acid"],
+    "recommendations": ["Serve in very small quantities as a digestif", "Brush teeth after consumption due to high sugar and acidity"]
   },
   {
     "id": "prosecco",
@@ -85,22 +107,12 @@
     "origin": "Italy",
     "flavor_profile": ["light", "fruity", "floral", "refreshing"],
     "typical_setting": ["brunch", "aperitivo", "casual-celebration"],
-    "cultural_notes": "Italy's most popular sparkling wine, made from Glera grapes using the Charmat method.",
+    "cultural_notes": "Italy's most popular sparkling wine. Made using the Charmat (tank) method.",
     "global_availability": "widespread",
-    "manufacturing_notes": "Charmat method (tank fermentation)"
-  },
-  {
-    "id": "rioja",
-    "name": "Rioja",
-    "category": "Wine",
-    "subcategory": "Red",
-    "alcohol_percentage": 13.5,
-    "origin": "Spain",
-    "flavor_profile": ["vanilla", "cherry", "oak", "leather"],
-    "typical_setting": ["spanish-restaurant", "tapas-bar", "aging-cellar"],
-    "cultural_notes": "Spain's most famous wine region, known for Tempranillo-based wines with significant oak aging.",
-    "global_availability": "widespread",
-    "regional_identity": "Spanish"
+    "overall_risk": "low-moderate",
+    "safety_notes": ["Lower ABV than Champagne, but still features rapid absorption from bubbles"],
+    "risk_factors": ["Easy to over-consume during long brunches", "Gas/bloating"],
+    "recommendations": ["Great for 'Spritz' cocktails to lower the ABV even further"]
   },
   {
     "id": "port-wine",
@@ -111,10 +123,13 @@
     "origin": "Portugal",
     "flavor_profile": ["sweet", "rich", "berry", "nutty"],
     "typical_setting": ["after-dinner", "cheese-course", "fireside"],
-    "cultural_notes": "A fortified wine from the Douro Valley in Portugal. Aged in Vila Nova de Gaia.",
+    "cultural_notes": "A fortified wine from the Douro Valley. Fortified with brandy during fermentation.",
     "global_availability": "widespread",
-    "manufacturing_notes": "Fortified with brandy to stop fermentation",
-    "regional_identity": "Portuguese"
+    "regional_identity": "Portuguese",
+    "overall_risk": "high",
+    "safety_notes": ["Significantly higher ABV (20%) than standard wine", "High sugar content can lead to severe hangovers"],
+    "risk_factors": ["Rapid intoxication if poured in standard wine portions", "Sugar-alcohol synergy"],
+    "recommendations": ["Serve in small 3oz portions only", "Treat more like a spirit than a wine"]
   },
   {
     "id": "tej",
@@ -125,10 +140,13 @@
     "origin": "Ethiopia, Eritrea",
     "flavor_profile": ["sweet", "honey", "herbal", "fermented"],
     "typical_setting": ["ethiopian-restaurant", "traditional-ceremony"],
-    "cultural_notes": "Ethiopian honey wine, often flavored with gesho leaves. Served in a special flask called a 'berele'. Central to Ethiopian culture.",
+    "cultural_notes": "Ethiopian honey wine flavored with gesho leaves. Served in a 'berele' flask.",
     "global_availability": "regional",
-    "manufacturing_notes": "Honey fermented with gesho (buckthorn)",
-    "regional_identity": "Ethiopian"
+    "regional_identity": "Ethiopian",
+    "overall_risk": "low-moderate",
+    "safety_notes": ["Homemade versions can vary in ABV (up to 11%)", "Honey base makes it very smooth and easy to drink"],
+    "risk_factors": ["High sugar content", "Deceptive strength in home-brewed batches"],
+    "recommendations": ["Eat with Injera and doro wat to balance the sweetness and slow absorption"]
   },
   {
     "id": "chillable-reds",
@@ -139,35 +157,12 @@
     "origin": "Global",
     "flavor_profile": ["light-red-fruit", "low-tannin", "refreshing"],
     "typical_setting": ["summer-picnic", "patio", "casual-dining"],
-    "cultural_notes": "A growing category of lighter red wines meant to be served slightly chilled. Includes Beaujolais, some Pinot Noir, and Grenache.",
+    "cultural_notes": "Lighter red wines meant to be served slightly chilled.",
     "global_availability": "widespread",
-    "consumption_patterns": ["summer-drinking", "trendy"]
-  },
-  {
-    "id": "fiano",
-    "name": "Fiano",
-    "category": "Wine",
-    "subcategory": "White",
-    "alcohol_percentage": 12.5,
-    "origin": "Italy",
-    "flavor_profile": ["hazelnut", "herbal", "citrus", "mineral"],
-    "typical_setting": ["seafood-restaurant", "italian-dining"],
-    "cultural_notes": "Ancient white grape from southern Italy, particularly Campania. Known for aromatic complexity.",
-    "global_availability": "regional",
-    "regional_identity": "Italian"
-  },
-  {
-    "id": "tempranillo",
-    "name": "Tempranillo",
-    "category": "Wine",
-    "subcategory": "Red",
-    "alcohol_percentage": 13.5,
-    "origin": "Spain",
-    "flavor_profile": ["cherry", "leather", "tobacco", "vanilla"],
-    "typical_setting": ["spanish-restaurant", "tapas", "wine-bar"],
-    "cultural_notes": "Spain's noble grape, the backbone of Rioja and Ribera del Duero. Known for aging beautifully.",
-    "global_availability": "widespread",
-    "regional_identity": "Spanish"
+    "overall_risk": "low-moderate",
+    "safety_notes": ["Chilled temperature can mask the taste of alcohol, leading to faster consumption"],
+    "risk_factors": ["Faster pace of drinking compared to room-temperature reds"],
+    "recommendations": ["Keep the bottle in a bucket of ice to maintain the refreshing quality, but track your glass count"]
   },
   {
     "id": "pomegranate-wine-azerbaijan",
@@ -178,8 +173,12 @@
     "origin": "Azerbaijan",
     "flavor_profile": ["tart", "fruity", "pomegranate", "sweet"],
     "typical_setting": ["azerbaijani-restaurant", "cultural-event"],
-    "cultural_notes": "Azerbaijan is famous for its pomegranates, and pomegranate wine is a specialty. Often served at celebrations.",
+    "cultural_notes": "Azerbaijan is famous for its pomegranates. This wine is a cultural specialty.",
     "global_availability": "regional",
-    "regional_identity": "Azerbaijani"
+    "regional_identity": "Azerbaijani",
+    "overall_risk": "low-moderate",
+    "safety_notes": ["High antioxidant content but also high natural acidity"],
+    "risk_factors": ["Heartburn", "Staining"],
+    "recommendations": ["Serve chilled with savory Azerbaijani snacks like cheese or nuts"]
   }
 ]

@@ -13,7 +13,11 @@
     "manufacturing_notes": "Root pounded and mixed with water",
     "consumption_patterns": ["ritual", "social-bonding", "relaxation"],
     "legal_notes": "Legal in most places, regulated in some",
-    "regional_identity": "Pacific Islander"
+    "regional_identity": "Pacific Islander",
+    "overall_risk": "low",
+    "safety_notes": ["Produces a mild sedative and anesthetic effect", "Can cause a numbing sensation in the mouth and throat"],
+    "risk_factors": ["Potential for 'Kava dermopathy' (dry skin) with heavy long-term use", "Interaction with anti-anxiety medications or alcohol"],
+    "recommendations": ["Drink on an empty stomach for traditional effects", "Do not mix with alcohol as it can strain the liver", "Respect the serving order in a traditional kava ceremony"]
   },
   {
     "id": "flavored-malt-beverages-gulf",
@@ -29,6 +33,10 @@
     "manufacturing_notes": "Brewed like beer, then alcohol removed",
     "consumption_patterns": ["social", "family-friendly", "ramadan"],
     "legal_notes": "Completely legal in Gulf countries",
-    "regional_identity": "Gulf Arab"
+    "regional_identity": "Gulf Arab",
+    "overall_risk": "low",
+    "safety_notes": ["Zero alcohol content; safe for all ages and drivers", "Halal certified"],
+    "risk_factors": ["High sugar content in flavored varieties", "Carbonation may cause bloating"],
+    "recommendations": ["Excellent social alternative in dry regions or during Ramadan", "Monitor sugar intake if consuming multiple bottles"]
   }
 ]

@@ -10,8 +10,11 @@
     "typical_setting": ["mexican-restaurant", "summer-party", "happy-hour"],
     "cultural_notes": "The classic tequila cocktail, typically made with tequila, lime juice, and orange liqueur. Served with salt rim.",
     "global_availability": "widespread",
-    "manufacturing_notes": "Can be shaken or frozen",
-    "consumption_patterns": ["social-drinking", "warm-weather"]
+    "consumption_patterns": ["social-drinking", "warm-weather", "happy-hour"],
+    "overall_risk": "moderate-high",
+    "safety_notes": ["Sugar and citrus mask the strength of the tequila", "Salt rim can increase thirst, leading to faster drinking"],
+    "risk_factors": ["Acid reflux from lime", "Rapid sugar-alcohol spike", "Dehydration from salt"],
+    "recommendations": ["Sip slowly; the ice melt will dilute the high ABV over time", "Order a side of water to balance the salt intake"]
   },
   {
     "id": "martini",
@@ -22,10 +25,13 @@
     "origin": "United States/Italy",
     "flavor_profile": ["dry", "botanical", "crisp", "elegant"],
     "typical_setting": ["cocktail-bar", "business-lunch", "pre-dinner"],
-    "cultural_notes": "Made with gin and dry vermouth. James Bond's 'shaken, not stirred' popularized it. Can be vodka-based.",
+    "cultural_notes": "Made with gin and dry vermouth. James Bond's 'shaken, not stirred' popularized it.",
     "global_availability": "widespread",
-    "manufacturing_notes": "Traditionally stirred, garnished with olive or lemon twist",
-    "consumption_patterns": ["aperitif", "sophisticated-drinking"]
+    "consumption_patterns": ["aperitif", "sophisticated-drinking", "business-social"],
+    "overall_risk": "high",
+    "safety_notes": ["Almost entirely comprised of high-proof spirits", "Very low dilution compared to highballs"],
+    "risk_factors": ["High alcohol concentration", "Rapid impairment on an empty stomach"],
+    "recommendations": ["Limit to one if you are in a professional or solo setting", "Always eat a high-protein appetizer before ordering"]
   },
   {
     "id": "old-fashioned",
@@ -36,9 +42,13 @@
     "origin": "United States",
     "flavor_profile": ["strong", "sweet", "bitter", "woody"],
     "typical_setting": ["whiskey-bar", "speakeasy", "evening-drink"],
-    "cultural_notes": "One of the oldest known cocktails, made by muddling sugar with bitters, adding whiskey, and garnishing with orange peel.",
+    "cultural_notes": "One of the oldest known cocktails, made by muddling sugar with bitters and adding whiskey.",
     "global_availability": "widespread",
-    "consumption_patterns": ["sipping", "after-dinner"]
+    "consumption_patterns": ["sipping", "after-dinner", "nightcap"],
+    "overall_risk": "high",
+    "safety_notes": ["One of the highest ABV cocktails served in a standard glass", "Intense flavor usually encourages slow sipping"],
+    "risk_factors": ["Cumulative intoxication", "High ABV per volume"],
+    "recommendations": ["Let the ice block melt slightly to open up the flavors and lower the ABV", "Stick to one per hour"]
   },
   {
     "id": "negroni",
@@ -49,9 +59,13 @@
     "origin": "Italy",
     "flavor_profile": ["bitter", "sweet", "herbal", "complex"],
     "typical_setting": ["italian-bar", "aperitivo", "cocktail-hour"],
-    "cultural_notes": "Equal parts gin, Campari, and sweet vermouth. Created in Florence in 1919 for Count Negroni.",
+    "cultural_notes": "Equal parts gin, Campari, and sweet vermouth. Created in Florence in 1919.",
     "global_availability": "widespread",
-    "consumption_patterns": ["aperitivo", "pre-dinner"]
+    "consumption_patterns": ["aperitivo", "pre-dinner", "social-hour"],
+    "overall_risk": "moderate-high",
+    "safety_notes": ["The bitterness of Campari can mask the alcohol content", "Usually served over ice which helps with slow dilution"],
+    "risk_factors": ["Herbal ingredients may cause stomach sensitivity for some", "Consistent high-spirit ratio"],
+    "recommendations": ["Pair with snacks (aperitivo style) like olives or nuts to buffer the alcohol"]
   },
   {
     "id": "pisco-sour",
@@ -62,11 +76,14 @@
     "origin": "Peru/Chile",
     "flavor_profile": ["citrus", "sweet", "sour", "foamy"],
     "typical_setting": ["peruvian-restaurant", "celebratory-event", "cocktail-bar"],
-    "cultural_notes": "National drink of both Peru and Chile, made with pisco, lime juice, simple syrup, egg white, and bitters. Source of friendly rivalry.",
+    "cultural_notes": "National drink of Peru and Chile, made with pisco, lime, and egg white.",
     "global_availability": "regional",
-    "manufacturing_notes": "Egg white creates signature foam",
-    "consumption_patterns": ["special-occasion", "tourist-experience"],
-    "regional_identity": "Peruvian/Chilean"
+    "consumption_patterns": ["special-occasion", "tourist-experience", "festive-drinking"],
+    "regional_identity": "Peruvian/Chilean",
+    "overall_risk": "moderate",
+    "safety_notes": ["Egg white creates a smooth texture that makes it very easy to drink quickly", "Citrus acidity is high"],
+    "risk_factors": ["Raw egg white (ensure fresh ingredients)", "Rapid consumption due to smooth texture"],
+    "recommendations": ["Ask for a fresh-cracked egg version rather than a pre-mix", "Treat as a single-glass experience due to acidity"]
   },
   {
     "id": "piscola",
@@ -77,10 +94,14 @@
     "origin": "Chile",
     "flavor_profile": ["simple", "refreshing", "sweet"],
     "typical_setting": ["chilean-bar", "house-party", "everyday-drinking"],
-    "cultural_notes": "Chile's national drink - pisco mixed with cola. Extremely popular at parties and gatherings.",
+    "cultural_notes": "Chile's national drink - pisco mixed with cola.",
     "global_availability": "regional",
-    "consumption_patterns": ["social-drinking", "everyday"],
-    "regional_identity": "Chilean"
+    "consumption_patterns": ["social-drinking", "party-environment", "everyday"],
+    "regional_identity": "Chilean",
+    "overall_risk": "moderate",
+    "safety_notes": ["Cola provides a caffeine/sugar kick that can mask feelings of intoxication", "Very easy to drink in large quantities"],
+    "risk_factors": ["Caffeine-alcohol interaction (masks drowsiness)", "High sugar content"],
+    "recommendations": ["Monitor total volume; highballs go down faster than spirit-forward drinks"]
   },
   {
     "id": "caipirinha",
@@ -91,10 +112,14 @@
     "origin": "Brazil",
     "flavor_profile": ["citrus", "sweet", "strong", "refreshing"],
     "typical_setting": ["brazilian-restaurant", "beach", "carnival"],
-    "cultural_notes": "Brazil's national cocktail, made with cachaça, lime, sugar, and ice. Simple but requires proper muddling technique.",
+    "cultural_notes": "Brazil's national cocktail, made with cachaça, lime, and sugar.",
     "global_availability": "widespread",
-    "manufacturing_notes": "Muddle lime with sugar to release oils",
-    "regional_identity": "Brazilian"
+    "consumption_patterns": ["beach-drinking", "outdoor-celebration", "food-pairing"],
+    "regional_identity": "Brazilian",
+    "overall_risk": "moderate-high",
+    "safety_notes": ["Usually very strong at the bottom of the glass where the sugar and spirit settle", "Refreshing taste is deceptive for its 20% ABV"],
+    "risk_factors": ["Sun exposure while drinking on beaches", "Stealth potency"],
+    "recommendations": ["Stir frequently to distribute the spirit and sugar", "Drink water between rounds if in the sun"]
   },
   {
     "id": "chuflay",
@@ -105,9 +130,14 @@
     "origin": "Bolivia",
     "flavor_profile": ["refreshing", "ginger", "citrus"],
     "typical_setting": ["bolivian-bar", "social-gathering"],
-    "cultural_notes": "Bolivia's signature cocktail - singani with ginger ale and lime. Popular at parties and celebrations.",
+    "cultural_notes": "Bolivia's signature cocktail - singani with ginger ale and lime.",
     "global_availability": "rare",
-    "regional_identity": "Bolivian"
+    "consumption_patterns": ["celebratory-toasting", "social-events", "local-festivals"],
+    "regional_identity": "Bolivian",
+    "overall_risk": "moderate",
+    "safety_notes": ["Standard highball safety profile", "Ginger ale can soothe the stomach but masks the spirit well"],
+    "risk_factors": ["Ginger-induced over-consumption (easy on the palate)", "Standard alcohol risks"],
+    "recommendations": ["A good 'entry-level' cocktail for those exploring South American spirits"]
   },
   {
     "id": "the-caesar",
@@ -121,8 +151,12 @@
     "cultural_notes": "Canada's national cocktail, similar to a Bloody Mary but made with Clamato (clam-tomato juice). Created in Calgary in 1969.",
     "global_availability": "regional",
     "manufacturing_notes": "Garnished with celery, often with bacon or shrimp",
-    "consumption_patterns": ["brunch", "morning-after"],
-    "regional_identity": "Canadian"
+    "consumption_patterns": ["brunch", "morning-after", "savory-craving"],
+    "regional_identity": "Canadian",
+    "overall_risk": "low-moderate",
+    "safety_notes": ["Low ABV but high sodium content", "Often contains shellfish allergens (clam juice)"],
+    "risk_factors": ["High sodium leads to water retention", "Spiciness can irritate the stomach", "Shellfish allergy risk"],
+    "recommendations": ["Always disclose shellfish allergies", "Drink water alongside to balance the high salt intake"]
   },
   {
     "id": "highball",
@@ -136,8 +170,12 @@
     "cultural_notes": "In Japan, specifically whiskey and soda. A cultural phenomenon that revolutionized whiskey drinking. Served in tall glasses with lots of ice.",
     "global_availability": "widespread",
     "manufacturing_notes": "Proper ice and stirring technique crucial",
-    "consumption_patterns": ["with-meals", "session-drinking"],
-    "regional_identity": "Japanese"
+    "consumption_patterns": ["with-meals", "session-drinking", "casual-social"],
+    "regional_identity": "Japanese",
+    "overall_risk": "low-moderate",
+    "safety_notes": ["High dilution makes it easier to track intake", "Carbonation increases alcohol absorption speed"],
+    "risk_factors": ["Carbonation-induced bloating", "Deceptive drinkability due to light flavor"],
+    "recommendations": ["Excellent for long dinner sessions", "Stick to one per 45-60 minutes to maintain pace"]
   },
   {
     "id": "chu-hi",
@@ -152,7 +190,11 @@
     "global_availability": "regional",
     "manufacturing_notes": "Often lemon or grapefruit flavored",
     "consumption_patterns": ["casual", "everyday", "with-meals"],
-    "regional_identity": "Japanese"
+    "regional_identity": "Japanese",
+    "overall_risk": "low-moderate",
+    "safety_notes": ["Often sold in 'Strong' versions (9%+) which significantly increase risk", "Fruit flavors mask the taste of shochu"],
+    "risk_factors": ["High sugar in commercial canned versions", "Rapid consumption due to 'soda-like' taste"],
+    "recommendations": ["Check the can label for ABV, as 'Strong' versions vary significantly", "Great for casual sipping with street food"]
   },
   {
     "id": "spritz",
@@ -165,8 +207,12 @@
     "typical_setting": ["italian-piazza", "aperitivo-hour", "summer-evening"],
     "cultural_notes": "The quintessential Italian aperitivo cocktail. Typically Aperol, prosecco, and soda water. Served with olives or chips.",
     "global_availability": "widespread",
-    "consumption_patterns": ["aperitivo", "pre-dinner", "summer"],
-    "regional_identity": "Italian"
+    "consumption_patterns": ["aperitivo", "pre-dinner", "summer-socializing"],
+    "regional_identity": "Italian",
+    "overall_risk": "low-moderate",
+    "safety_notes": ["Lower ABV than most cocktails", "Bubbly nature can cause faster initial absorption"],
+    "risk_factors": ["High sugar content from the liqueur", "Dehydration if consumed in direct sun"],
+    "recommendations": ["Best consumed with the provided salty snacks to pace the alcohol", "Ideal for early evening social starts"]
   },
   {
     "id": "rtd-cocktails",
@@ -180,7 +226,11 @@
     "cultural_notes": "Ready-to-drink canned cocktails. Massive growth globally as consumers seek convenience and quality.",
     "global_availability": "widespread",
     "manufacturing_notes": "Pre-mixed and carbonated",
-    "consumption_patterns": ["convenience", "outdoor", "casual"]
+    "consumption_patterns": ["convenience-drinking", "outdoor-events", "casual-gathering"],
+    "overall_risk": "moderate",
+    "safety_notes": ["Consistent ABV makes tracking easy", "Portability can lead to drinking in settings without water or food access"],
+    "risk_factors": ["Artificial additives and high sugar", "Fast pace of consumption due to convenience"],
+    "recommendations": ["Keep an eye on the total number of cans", "Always dispose of cans responsibly in outdoor settings"]
   },
   {
     "id": "hard-seltzers",
@@ -194,6 +244,10 @@
     "cultural_notes": "Sparkling water with alcohol and fruit flavor. Exploded in popularity as a low-calorie, gluten-free alternative to beer.",
     "global_availability": "widespread",
     "manufacturing_notes": "Usually made from fermented sugar",
-    "consumption_patterns": ["health-trend", "session-drinking"]
+    "consumption_patterns": ["health-conscious-socializing", "session-drinking", "outdoor-active"],
+    "overall_risk": "low",
+    "safety_notes": ["Very low calorie and sugar, reducing typical 'heavy' feelings", "Clear liquid appearance can lead to confusion with water"],
+    "risk_factors": ["High carbonation leads to bloating", "Very easy to drink multiple in short succession"],
+    "recommendations": ["Excellent choice for long daytime events", "Alternate with plain sparkling water to stay hydrated"]
   }
 ]

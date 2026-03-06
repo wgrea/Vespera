@@ -10,6 +10,7 @@
   import Header from '$lib/components/home/Header.svelte';
   import CategoryGrid from '$lib/components/home/CategoryGrid.svelte';
   import DrankEverywhere from '$lib/components/home/DrankEverywhere.svelte';
+  import ServiceDesignButton from '$lib/components/home/ServiceDesignButton.svelte';
   import AboutSection from '$lib/components/home/AboutSection.svelte';
 
   const barTypes = barTypesJson as BarType[];
@@ -37,6 +38,6 @@
     <CategoryGrid {barTypes} {eventTypes} {clubTypes} />
     <DrankEverywhere {drankEverywhere} />
     <AboutSection />
-
+    <ServiceDesignButton />
   </div>
 </div>

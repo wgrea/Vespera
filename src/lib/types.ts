@@ -63,6 +63,12 @@ export type Drink = {
   global_availability?: GlobalAvailability;
   manufacturing_notes?: string;
   consumption_patterns?: string[];
+
+  // For Assess Page
+  risk_factors?: string[];
+  recommendations?: string[];
+  overall_risk?: 'low' | 'moderate' | 'moderate-high' | 'high';
+  safety_notes?: string[];
 };
 
 // ============= VENUE TYPES =============
@@ -76,6 +82,14 @@ export interface BarType {
   social_dynamics: string;
   typical_drinks: string[];
   cultural_notes?: string;
+
+  //For Assess Page
+  overall_risk?: 'low' | 'moderate' | 'moderate-high' | 'high';
+  safety_notes?: string[];
+  recommendations?: string[];
+  sensory_intensity?: 'low' | 'moderate' | 'high';
+  peak_hours?: string;
+  solo_comfort?: number; // 1–10 scale, optional
 }
 
 export interface ClubType {
@@ -89,6 +103,14 @@ export interface ClubType {
   social_expectations: string;
   typical_drinks: string[];
   cultural_notes?: string;
+
+  //For Assess Page
+  overall_risk?: 'low' | 'moderate' | 'moderate-high' | 'high';
+  safety_notes?: string[];
+  recommendations?: string[];
+  sensory_intensity?: 'low' | 'moderate' | 'high';
+  peak_hours?: string;
+  solo_comfort?: number; // 1–10 scale, optional
 }
 
 export interface EventType {
@@ -101,6 +123,14 @@ export interface EventType {
   plan_night_around: boolean;
   typical_drinks: string[];
   cultural_notes?: string;
+
+  //For Assess Page
+  overall_risk?: 'low' | 'moderate' | 'moderate-high' | 'high';
+  safety_notes?: string[];
+  recommendations?: string[];
+  sensory_intensity?: 'low' | 'moderate' | 'high';
+  peak_hours?: string;
+  solo_comfort?: number; // 1–10 scale, optional
 }
 
 export type Venue = BarType | ClubType | EventType;

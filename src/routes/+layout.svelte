@@ -2,19 +2,16 @@
 <script lang="ts">
     import "../app.css";
     import favicon from '$lib/assets/favicon.svg';
-    import SafetyButton from '$lib/components/home/SafetyButton.svelte';
     import { page } from '$app/stores';
 
     $: currentPath = $page.url.pathname;
 
-	function getNextStep(path: string) {
-		if (path === '/' || path === '/home') return '/service-design/blueprint';
-		if (path.startsWith('/service-design/blueprint')) return '/safety/inspect';
-		if (path.startsWith('/safety/inspect')) return '/safety/analyze';
-		if (path.startsWith('/safety/analyze')) return '/safety/assess';
-		if (path.startsWith('/safety/assess')) return '/session/reset';
-		return null;
-	}
+    function getNextStep(path: string) {
+    if (path.startsWith('/safety/inspect')) return '/safety/analyze';
+    if (path.startsWith('/safety/analyze')) return '/safety/assess';
+    if (path.startsWith('/safety/assess')) return '/session/reset';
+    return null;
+    }
 
     $: nextStep = getNextStep(currentPath);
 </script>
@@ -25,6 +22,3 @@
 
 <slot />
 
-{#if nextStep}
-    <SafetyButton href={nextStep} />
-{/if}

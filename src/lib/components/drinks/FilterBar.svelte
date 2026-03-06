@@ -2,7 +2,6 @@
 <script lang="ts">
   import { CATEGORIES, REGIONS, STRENGTH_LEVELS } from '$lib/types';
 
-  // These should be bindable from the parent
   export let selectedCategory: string | null;
   export let selectedRegion: string | null;
   export let selectedStrength: string | null;
@@ -11,21 +10,18 @@
   export let onClearFilters: () => void;
 </script>
 
-<div class="space-y-3">
+<div class="space-y-4">
   <div class="max-w-4xl mx-auto">
-    <!-- CATEGORY FILTERS -->
-    <div class="flex flex-wrap gap-2 mb-3">
+    <div class="flex flex-wrap gap-2 mb-4">
       {#each CATEGORIES as cat}
         <button
-          class={`px-4 py-2 rounded-full border transition
+          class={`px-4 py-1.5 rounded-full border transition-all text-sm font-medium
             ${selectedCategory === cat
-              ? 'bg-orange-500 text-white border-orange-600'
-              : 'bg-white border-gray-300 text-gray-700 hover:bg-gray-50'}
+              ? 'bg-[#FFEDD5] text-[#7A4A00] border-[#FED7AA] shadow-sm' 
+              : 'bg-white border-gray-200 text-[#7A4A00]/70 hover:border-[#FED7AA] hover:bg-orange-50/30'}
           `}
           on:click={() => { 
-            console.log('Category clicked:', cat, 'Current:', selectedCategory);
             selectedCategory = selectedCategory === cat ? null : cat; 
-            console.log('New selectedCategory:', selectedCategory);
             onFilterChange(); 
           }}
         >
@@ -34,15 +30,11 @@
       {/each}
     </div>
 
-    <!-- REGION + STRENGTH FILTERS -->
-    <div class="flex flex-col md:flex-row gap-2 mb-3">
+    <div class="flex flex-col md:flex-row gap-3 mb-4">
       <select
-        class="px-4 py-2 border rounded-lg bg-white"
+        class="px-4 py-2 border border-gray-200 rounded-xl bg-white text-[#7A4A00] text-sm focus:ring-1 focus:ring-orange-200 outline-none"
         bind:value={selectedRegion}
-        on:change={() => {
-          console.log('Region changed to:', selectedRegion);
-          onFilterChange();
-        }}
+        on:change={onFilterChange}
       >
         <option value="">Region (optional)</option>
         {#each REGIONS as region}
@@ -51,12 +43,9 @@
       </select>
 
       <select
-        class="px-3 py-2 border rounded-lg bg-white"
+        class="px-4 py-2 border border-gray-200 rounded-xl bg-white text-[#7A4A00] text-sm focus:ring-1 focus:ring-orange-200 outline-none"
         bind:value={selectedStrength}
-        on:change={() => {
-          console.log('Strength changed to:', selectedStrength);
-          onFilterChange();
-        }}
+        on:change={onFilterChange}
       >
         <option value="">Strength (optional)</option>
         {#each STRENGTH_LEVELS as s}
@@ -65,28 +54,22 @@
       </select>
     </div>
 
-    <!-- SEARCH BAR -->
-    <input
-      type="text"
-      placeholder="Search by name, category, or origin..."
-      class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-400"
-      bind:value={searchQuery}
-      on:input={() => {
-        console.log('Search query:', searchQuery);
-        onFilterChange();
-      }}
-    />
+    <div class="relative">
+      <input
+        type="text"
+        placeholder="Search by name, category, or origin..."
+        class="w-full px-4 py-3 border border-gray-200 rounded-xl bg-white text-[#7A4A00] placeholder:text-[#7A4A00]/40 focus:ring-2 focus:ring-orange-100 outline-none transition-shadow"
+        bind:value={searchQuery}
+        on:input={onFilterChange}
+      />
+    </div>
 
-    <!-- CLEAR FILTERS -->
     {#if selectedCategory || selectedRegion || selectedStrength || searchQuery}
       <button
-        class="mt-2 text-sm text-orange-700 hover:text-orange-900 underline"
-        on:click={() => {
-          console.log('Clear filters clicked');
-          onClearFilters();
-        }}
+        class="mt-3 text-sm text-blue-700 hover:text-blue-900 font-semibold flex items-center gap-1"
+        on:click={onClearFilters}
       >
-        Clear all filters
+        <span>✕</span> Clear all filters
       </button>
     {/if}
   </div>

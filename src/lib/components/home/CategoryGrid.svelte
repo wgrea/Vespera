@@ -8,30 +8,29 @@
 </script>
 
 <section class="section">
-  <h2 class="section-title">Where Drinks Are Found</h2>
-  <p class="subtle-text mb-4">
+  <h2 class="section-title text-vibe-brown">Where Drinks Are Found</h2>
+  <p class="text-vibe-brown/70 mb-4">
     Drinks are experienced in social settings like bars, events, and clubs.
   </p>
 
-<a href="/drinks" class="button-primary mb-4 block">
-  Explore the Full Global Drinks Database
-</a>
-
-<div class="category-grid">
-  <a href="/bars" class="card bar-tint">
-    <h3>Bar Types</h3>
-    <p>{barTypes.length} types</p>
+  <a href="/drinks" class="button-action-orange mb-6">
+    Explore the Full Global Drinks Database
   </a>
 
-  <a href="/events" class="card event-tint">
-    <h3>Event Types</h3>
-    <p>{eventTypes.length} types</p>
-  </a>
+  <div class="category-grid">
+    <a href="/bars" class="card bar-tint hover:scale-[1.02] transition-transform">
+      <h3 class="font-bold text-vibe-brown">Bar Types</h3>
+      <p class="text-vibe-brown/70">{barTypes.length} types</p>
+    </a>
 
-  <a href="/clubs" class="card club-tint">
-    <h3>Club Types</h3>
-    <p>{clubTypes.length} types</p>
-  </a>
-</div>
+    <a href="/events" class="card event-tint hover:scale-[1.02] transition-transform">
+      <h3 class="font-bold text-vibe-brown">Event Types</h3>
+      <p class="text-vibe-brown/70">{eventTypes.length} types</p>
+    </a>
 
+    <a href="/clubs" class="card club-tint hover:scale-[1.02] transition-transform">
+      <h3 class="font-bold text-vibe-brown">Club Types</h3>
+      <p class="text-vibe-brown/70">{clubTypes.length} types</p>
+    </a>
+  </div>
 </section>
