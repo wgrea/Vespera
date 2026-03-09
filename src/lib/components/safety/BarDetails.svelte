@@ -4,26 +4,6 @@
   export let bar: any;
 </script>
 
-<SafetyCard title="Pressure Level">
-  <p class="capitalize text-vibe-brown font-medium">
-    {bar.pressure_level.replace('-', ' ')}
-  </p>
-</SafetyCard>
-
-<SafetyCard title="Social Dynamics">
-  <p class="text-vibe-brown">{bar.social_dynamics}</p>
-</SafetyCard>
-
-<SafetyCard title="Atmosphere & Vibe">
-  <div class="flex flex-wrap gap-2">
-    {#each bar.vibe as v}
-      <span class="bg-orange-50/50 border border-orange-100/50 px-3 py-1 rounded-full text-sm text-vibe-brown">
-        {v}
-      </span>
-    {/each}
-  </div>
-</SafetyCard>
-
 <SafetyCard title="Key Safety Notes">
   <ul class="list-disc ml-5 space-y-1 text-vibe-brown">
     {#each bar.safety_notes ?? [] as note}

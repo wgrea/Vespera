@@ -4,18 +4,6 @@
   export let event: any;
 </script>
 
-<SafetyCard title="Touch Level">
-  <p class="capitalize text-vibe-brown font-bold">{event.touch_level}</p>
-</SafetyCard>
-
-<SafetyCard title="Social Dynamics">
-  <p class="text-vibe-brown">{event.social_dynamics}</p>
-</SafetyCard>
-
-<SafetyCard title="Commitment Level">
-  <p class="text-vibe-brown">{event.plan_night_around ? 'Plan your night around this' : 'Drop-in friendly'}</p>
-</SafetyCard>
-
 <SafetyCard title="Key Safety Notes">
   <ul class="list-disc ml-5 space-y-1 text-vibe-brown">
     {#each event.safety_notes ?? [] as note}

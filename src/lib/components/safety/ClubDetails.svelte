@@ -18,11 +18,6 @@
   </div>
 </SafetyCard>
 
-<!-- Pressure Level -->
-<SafetyCard title="Pressure Level">
-  <p class="capitalize">{club.pressure_level.replace('-', ' ')}</p>
-</SafetyCard>
-
 <!-- Safety Notes -->
 <SafetyCard title="Key Safety Notes">
   <ul class="list-disc ml-5 space-y-1">
