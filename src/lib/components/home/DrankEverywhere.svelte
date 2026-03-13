@@ -8,12 +8,12 @@
   }[];
 </script>
 
-<section class="bg-[#fcdab7] p-6 rounded-xl border border-orange-300 text-center">
-  <h2 class="text-xl font-bold text-vibe-brown">Drank Everywhere</h2>
-  <p class="text-sm text-vibe-brown/80">Globally recognized brands found in most countries</p>
-  <p class="text-xs text-vibe-brown/60 italic mb-4">(A quick look at what's familiar worldwide)</p>
+<section class="bg-[#fcdab7] p-5 rounded-xl border border-orange-300 text-center">
+  <h2 class="text-lg font-bold text-vibe-brown mb-1">Drank Everywhere</h2>
+  <p class="text-sm text-vibe-brown/80 mb-1">Globally recognized brands found in most countries</p>
+  <p class="text-xs text-vibe-brown/60 italic mb-3">(A quick look at what's familiar worldwide)</p>
   
-  <div class="grid gap-2 mt-4">
+  <div class="grid gap-2">
     {#each drankEverywhere as item}
       <a 
         href="/drinks/{item.slug}" 

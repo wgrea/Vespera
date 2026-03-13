@@ -7,7 +7,7 @@
   export let clubTypes: ClubType[];
 </script>
 
-<section class="mt-12">
+<section>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
     <a href="/bars" class="flex items-center space-x-4 bg-green-50 border border-green-200 p-4 rounded-xl hover:scale-[1.02] transition-transform">
       <span class="text-3xl" aria-hidden="true">🍸</span>
