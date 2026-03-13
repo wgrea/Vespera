@@ -1,22 +1,17 @@
 // src/routes/api/test/+server.ts
-import { db } from '$lib';
+import { db } from '$lib/server/database'; // Fix the import path
 import { json } from '@sveltejs/kit';
 
 export async function GET() {
   try {
-    const drinks = await db.getDrinks();
-    const bars = await db.getBars();
-    const clubs = await db.getClubs();
-    const events = await db.getEvents();
+    // Remove 'await' since methods are now synchronous
+    const drinks = db.getDrinks();
+    const bars = db.getBars();
+    const clubs = db.getClubs();
+    const events = db.getEvents();
     
-    // Test a specific drink lookup
-    const sampleDrink = drinks[0];
-    let venues = null;
-    
-    if (sampleDrink) {
-      venues = await db.getAllVenuesForDrink(sampleDrink.id);
-    }
-    
+    // Since getAllVenuesForDrink doesn't exist in your simplified Database class,
+    // just return the counts for now
     return json({
       success: true,
       counts: {
@@ -25,13 +20,9 @@ export async function GET() {
         clubs: clubs.length,
         events: events.length
       },
-      sample: sampleDrink ? {
-        drink: sampleDrink.name,
-        venues: {
-          bars: venues?.bars.length || 0,
-          clubs: venues?.clubs.length || 0,
-          events: venues?.events.length || 0
-        }
+      sample: drinks[0] ? {
+        drink: drinks[0].name,
+        message: "Venue mapping not available in simplified database"
       } : null
     });
   } catch (error) {
