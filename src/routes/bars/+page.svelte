@@ -34,6 +34,9 @@
       <p class="text-sm text-vibe-brown/70 italic max-w-2xl">
         Explore curated atmospheres and social comfort levels. Many spaces shift identities from day to night.
       </p>
+      <p class="text-xs text-vibe-brown/50 italic">
+        Additional <strong>filters</strong> appear only when meaningful patterns emerge.
+      </p>
 
       <div class="flex gap-2 mt-2">
         <button
