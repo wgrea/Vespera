@@ -32,7 +32,12 @@
         <h1 class="text-2xl font-bold text-vibe-brown">Event Types</h1>
       </div>
       
-      <p class="text-sm text-vibe-brown/70 italic">Explore social experiences and group dynamics.</p>
+      <p class="text-sm text-vibe-brown/70 italic">
+        Explore social experiences and group dynamics.
+      </p>
+      <p class="text-xs text-vibe-brown/50 italic">
+        Additional <strong>filters</strong> appear as more event types are documented.
+      </p>
 
       <div class="flex flex-wrap gap-2 mt-2">
         <button
