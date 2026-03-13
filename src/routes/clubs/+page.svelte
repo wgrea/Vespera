@@ -34,6 +34,9 @@
     <p class="text-sm text-vibe-brown/70 italic">
       Explore nightlife scenes, energy levels, and <strong>dance</strong>-forward environments.
     </p>
+    <p class="text-xs text-vibe-brown/50 italic">
+      More <strong>filters</strong> appear as club patterns grow.
+    </p>
 
     <!-- Filter button section -->
     <div class="flex flex-wrap items-center gap-2 mt-2">
