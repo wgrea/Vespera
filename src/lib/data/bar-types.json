@@ -11,6 +11,18 @@
       "label": "Low Pressure",
       "description": "Minimal expectation to perform. Solo patrons are common and usually left to their own devices."
     },
+    "economic_vibe": "inclusive",
+    "pacing_cost_factor": 1,
+    "spending_rhythm": "nursing",
+    "seasonal_context": {
+      "peak_note": "Outdoor patios may open, increasing crowd density slightly.",
+      "off_peak_note": "The ultimate 'winter escape'; consistent pricing and low pressure.",
+      "volatility": "stable"
+    },
+    "budget_tips": [
+      "Stick to 'Well-Drinks' or local cans to keep costs at the baseline.",
+      "Check for 'Beer & Shot' specials which offer the highest value density."
+    ],
     "social_dynamics": "Regulars at the bar, low expectations, easy conversation",
     "typical_drinks": ["Beer", "Well-drinks", "Shots"],
     "solo_comfort": 8,
@@ -36,6 +48,18 @@
       "label": "Low Pressure",
       "description": "Very welcoming; the 'living room' vibe makes it socially acceptable to sit alone for long periods."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 2,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "Extremely crowded during March (St. Patrick's); expect 'event pricing'.",
+      "off_peak_note": "Warm and stable during cold months; ideal for long, low-cost sessions.",
+      "volatility": "event-driven"
+    },
+    "budget_tips": [
+      "Pints of Stout are often the best 'time-to-cost' ratio for slow sipping.",
+      "Regional spirits (Whiskey) may carry a higher 'import' cost outside of Europe."
+    ],
     "social_dynamics": "Communal but respectful; easy to stay anonymous or join a conversation at the bar.",
     "typical_drinks": ["Stout", "Irish Whiskey", "Cider"],
     "solo_comfort": 10,
@@ -60,6 +84,18 @@
       "label": "Low-Moderate Pressure",
       "description": "Pressure is tied to the game; as long as you're watching the screen, no one questions you being solo."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 3,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "Playoff seasons cause high density and faster service pacing.",
+      "off_peak_note": "Weekday afternoons offer significant discounts and 'quiet' game viewing.",
+      "volatility": "event-driven"
+    },
+    "budget_tips": [
+      "Look for 'Pitcher' specials if you have one night-only friend; it's cheaper than single pours.",
+      "Local domestic lagers are the most predictable cost-saver here."
+    ],
     "social_dynamics": "Group cheering/groaning; high potential for 'incidental' conversation about the game.",
     "typical_drinks": ["Domestic Pitchers", "Wings", "Well-drinks"],
     "solo_comfort": 9,
@@ -84,6 +120,18 @@
       "label": "Very Low Pressure",
       "description": "The music is the primary guest. Talking over the records is often discouraged, making solo presence the norm."
     },
+    "economic_vibe": "premium",
+    "pacing_cost_factor": 2,
+    "spending_rhythm": "nursing",
+    "seasonal_context": {
+      "peak_note": "Weekend nights may implement 'cover charges' or drink minimums.",
+      "off_peak_note": "Weeknights are perfect for single-drink contemplative sessions.",
+      "volatility": "stable"
+    },
+    "budget_tips": [
+      "Expect a 'Curation Tax' on the menu; you are paying for the audio environment.",
+      "Sip slowly—these venues prioritize quality over the volume of orders."
+    ],
     "social_dynamics": "Individual appreciation of sound; hushed tones; respect for the vinyl curator.",
     "typical_drinks": ["Japanese Whisky", "Natural Wine", "Classic Cocktails"],
     "solo_comfort": 10,
@@ -108,6 +156,18 @@
       "label": "Structured Socializing",
       "description": "Interaction is often guided by a host or sommelier, providing easy 'scripts' for talking to neighbors."
     },
+    "economic_vibe": "premium",
+    "pacing_cost_factor": 2,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "Harvest/Summer season is high-cost and requires advanced booking.",
+      "off_peak_note": "Winter tours are often cheaper and offer more one-on-one time with experts.",
+      "volatility": "seasonal-peak"
+    },
+    "budget_tips": [
+      "Tasting 'Flights' offer the best value for experiencing diversity without full-bottle prices.",
+      "Inquire about 'Member for a Day' discounts if you plan to buy a bottle to go."
+    ],
     "social_dynamics": "Shared sensory experience; focus on craft and origin; polite and paced conversation.",
     "typical_drinks": ["Flight of Beer", "Wine Varietals", "Palate Cleansers"],
     "solo_comfort": 9,
@@ -133,6 +193,18 @@
       "label": "High Communal Energy",
       "description": "Interaction peaks during live matches (Cricket/IPL). Expect high-volume cheering and table-to-table banter."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 4,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "IPL (Cricket) season is the absolute peak for density and pacing.",
+      "off_peak_note": "Non-match days are significantly quieter and better for focused dining.",
+      "volatility": "event-driven"
+    },
+    "budget_tips": [
+      "Regional beers like Kingfisher are often fairly priced compared to complex cocktails.",
+      "Order 'Small Plates' to graze throughout the game rather than one large, expensive meal."
+    ],
     "social_dynamics": "Strong emphasis on regional pride and shared sports fandom; feels like a community living room.",
     "typical_drinks": ["Kingfisher", "Whisky", "Mango Lassi Cocktails"],
     "solo_comfort": 8,
@@ -157,6 +229,18 @@
       "label": "Activity-Based",
       "description": "Most people are focused on the screens. Interaction is usually brief, like 'Who has next?' or 'Nice high score!'"
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 2,
+    "spending_rhythm": "sporadic",
+    "seasonal_context": {
+      "peak_note": "Weekend nights have high floor friction; weekday 'Happy Hours' offer free play.",
+      "off_peak_note": "Great rainy-day or winter location; crowds are manageable.",
+      "volatility": "stable"
+    },
+    "budget_tips": [
+      "Budget separately for 'Tokens' vs 'Drinks' to avoid losing track of total spend.",
+      "Canned craft beers offer better value density while you are moving between games."
+    ],
     "social_dynamics": "Low-stakes competition; shared nostalgia; easy to start/stop social engagement.",
     "typical_drinks": ["Craft Cans", "Themed Cocktails", "Pabst Blue Ribbon"],
     "solo_comfort": 10,
@@ -184,6 +268,18 @@
       "label": "Active Engagement",
       "description": "More 'club' than 'bar'—expect to be asked to dance or to be in a high-density social environment."
     },
+    "economic_vibe": "standard",
+  "pacing_cost_factor": 4,
+  "spending_rhythm": "steady",
+  "seasonal_context": {
+    "peak_note": "High energy during summer and holiday weekends; cover charges are common.",
+    "off_peak_note": "Stable midweek vibe; often no cover charge before 10 PM.",
+    "volatility": "event-driven"
+  },
+  "budget_tips": [
+    "Arrive early to avoid cover charges, which can significantly spike your night's cost.",
+    "Stick to bottled beer or simple tequila pours to avoid the higher 'Club Cocktail' pricing."
+  ],
     "social_dynamics": "Highly social; frequent approaching; energy often stays high until very late.",
     "typical_drinks": ["Tequila", "Beer with Lime", "Rum"],
     "solo_comfort": 8,

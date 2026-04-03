@@ -6,6 +6,35 @@
   $: soloStars = bar?.solo_comfort ? Math.round(bar.solo_comfort / 2) : 0;
 </script>
 
+{#if bar.budget_tips?.length}
+<SafetyCard title="Budget Strategy">
+  <div class="bg-blue-50/50 border border-blue-100 rounded-lg p-3 mb-3">
+    <p class="text-[10px] font-bold uppercase tracking-widest text-blue-600 mb-2">Wallet Protection</p>
+    <ul class="space-y-2">
+      {#each bar.budget_tips as tip}
+        <li class="text-sm text-vibe-brown flex gap-2">
+          <span class="text-blue-400">💰</span> {tip}
+        </li>
+      {/each}
+    </ul>
+  </div>
+</SafetyCard>
+{/if}
+
+{#if bar.seasonal_context}
+  <div class="px-4 py-3 bg-amber-50/40 rounded-lg border border-amber-200/50 mb-6">
+    <div class="flex items-center gap-2 mb-1">
+      <span class="text-xs">⚠️</span>
+      <p class="text-[10px] uppercase tracking-widest text-amber-700/60 font-bold">
+        Pacing Shift: {bar.seasonal_context.volatility}
+      </p>
+    </div>
+    <p class="text-xs text-vibe-brown/90 leading-snug italic">
+      {bar.seasonal_context.peak_note}
+    </p>
+  </div>
+{/if}
+
 <SafetyCard title="Solo Comfort & Strategy">
   <div class="flex items-center gap-2 mb-4">
     <div class="flex">

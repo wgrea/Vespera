@@ -2,9 +2,21 @@
 // Core types based on your existing JSON structure
 
 export type AlcoholRestrictionLevel = 'none' | 'moderate' | 'high' | 'prohibited';
-export type PressureLevel = 'low' | 'low-moderate' | 'moderate' | 'moderate-high' | 'high';
+// Updated to match your JSON data values
+export type PressureLevel = 'low' | 'low-moderate' | 'moderate' | 'moderate-high' | 'high' | 'very-high' | 'low-verbal';
 export type SensoryIntensity = 'low' | 'medium' | 'high';
 export type GlobalAvailability = 'widespread' | 'regional' | 'local' | 'rare' | 'emerging';
+
+// NEW: Economic & Value Types
+export type EconomicVibe = 'inclusive' | 'standard' | 'premium' | 'exclusive';
+export type SpendingRhythm = 'nursing' | 'steady' | 'high-velocity' | 'sporadic';
+export type SeasonalVolatility = 'stable' | 'seasonal-peak' | 'event-driven';
+
+export interface SeasonalContext {
+  peak_note: string;         // e.g., "High-energy/pricier in summer"
+  off_peak_note: string;     // e.g., "Intimate/stable in winter"
+  volatility: SeasonalVolatility;
+}
 
 // Add these to your existing types.ts file
 export type StrengthLevel = {
@@ -102,6 +114,11 @@ export interface BaseVenue {
   // New structured fields
   interaction_intensity: InteractionIntensity;
   safety_factors: SafetyFactors;
+
+  // NEW: Value Evaluation (Analyze Page)
+  economic_vibe: EconomicVibe;
+  pacing_cost_factor: number; // 1-5 (1: Slow/Nursing, 5: High Velocity)
+  spending_rhythm: SpendingRhythm;
 
   // Solo
   solo_comfort: number;

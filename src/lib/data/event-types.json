@@ -11,6 +11,18 @@
       "label": "Moderate-High Pressure",
       "description": "High momentum; the expectation to move with the group can feel pressured if you prefer a slower pace."
     },
+    "economic_vibe": "inclusive",
+    "pacing_cost_factor": 5,
+    "spending_rhythm": "high-velocity",
+    "seasonal_context": {
+      "peak_note": "Holiday crawls (St. Paddy's, Halloween) see 2x drink prices and mandatory cover charges.",
+      "off_peak_note": "Local-run weekday crawls are often subsidized by bars to drive traffic.",
+      "volatility": "event-driven"
+    },
+    "budget_tips": [
+      "The ticket covers entry, but 'batch shots' are usually overpriced; stick to the 'standard' beers included in the route.",
+      "Pre-calculate your 'Cash-Only' limit to avoid high-fee ATMs during the crawl."
+    ],
     "social_dynamics": "Moving group energy, shared mission, collective decision-making.",
     "typical_drinks": ["Draft Beer", "Batch Cocktails", "Shots"],
     "solo_comfort": 9,
@@ -42,6 +54,18 @@
       "label": "Moderate Pressure",
       "description": "Focus is on learning; pressure is technical rather than purely social."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 1,
+    "spending_rhythm": "nursing",
+    "seasonal_context": {
+      "peak_note": "New Year's 'Resolution' classes are crowded; individual attention from instructors drops.",
+      "off_peak_note": "Mid-season classes (April/Oct) offer more floor space and lower 'drop-in' rates.",
+      "volatility": "seasonal-peak"
+    },
+    "budget_tips": [
+      "Buy a 'Class Pass' instead of single drop-ins to reduce the per-session cost by 30%.",
+      "Bring your own water; studio bottle prices are usually marked up 200%."
+    ],
     "social_dynamics": "Partner rotation is standard; you'll naturally interact with the whole room through the lesson.",
     "typical_drinks": ["Water", "Light Beer", "Seltzer"],
     "solo_comfort": 10,
@@ -66,6 +90,18 @@
     "label": "Active Socializing",
     "description": "Implicit expectation to engage. Most people are there specifically to be approached or to approach others."
   },
+  "economic_vibe": "premium",
+    "pacing_cost_factor": 3,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "February (Valentine's) sees peak ticket pricing and 'premium' menu requirements.",
+      "off_peak_note": "Summer mixers are often more casual with lower 'early bird' ticket entry.",
+      "volatility": "event-driven"
+    },
+    "budget_tips": [
+      "Your ticket often includes one 'Welcome Drink'—redeem it immediately before the bar line peaks.",
+      "Avoid 'Topshelf' cocktails; the social churn is too high to appreciate the quality."
+    ],
   "social_dynamics": "Fluid, rotating conversations; frequent ice-breaking; varying levels of vulnerability.",
   "typical_drinks": ["Wine", "Sparkling Water", "Easy-to-hold Cocktails"],
   "solo_comfort": 8,
@@ -98,6 +134,18 @@
       "label": "Physical Connection",
       "description": "Requires close physical proximity with partners. High focus on 'the lead' and 'the follow'."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 2,
+    "spending_rhythm": "nursing",
+    "seasonal_context": {
+      "peak_note": "Congress/Festival weekends see higher entry fees and 'Guest DJ' surcharges.",
+      "off_peak_note": "Weekly weeknight socials are the most cost-effective way to practice.",
+      "volatility": "stable"
+    },
+    "budget_tips": [
+      "Eat a full meal before arriving; dance socials rarely have affordable or healthy food options.",
+      "Check for 'Student' or 'Member' discounts if you attend the pre-social lesson."
+    ],
     "social_dynamics": "Rotational partner dancing; brief but intimate interactions; technical skill-sharing.",
     "typical_drinks": ["Water", "Light Beer", "Mojitos"],
     "solo_comfort": 8,
@@ -124,6 +172,18 @@
       "label": "High Intimacy",
       "description": "Known for a 'grounded' and very close connection. Can feel intense for solo newcomers."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 1,
+    "spending_rhythm": "nursing",
+    "seasonal_context": {
+      "peak_note": "International workshops bring high-tier instructors and higher 'Full Pass' costs.",
+      "off_peak_note": "Intimate local 'Practicas' are often half the price of a full social.",
+      "volatility": "stable"
+    },
+    "budget_tips": [
+      "The 'intimacy' of the dance means you'll spend more time on the floor than at the bar—budget for high-quality hydration over alcohol.",
+      "Reusable bottles are often permitted here; check house rules to save on water costs."
+    ],
     "social_dynamics": "Slow, rhythmic, and highly focused on the partner connection over 'flashy' moves.",
     "typical_drinks": ["Cocktails", "Water", "Wine"],
     "solo_comfort": 7,
@@ -150,6 +210,18 @@
       "label": "Fast-Paced Socializing",
       "description": "High energy and fast footwork. Socializing happens rapidly between 4-minute songs."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 3,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "Live Band nights carry a higher cover charge but offer the best 'Vibe-to-Cost' value.",
+      "off_peak_note": "DJ-only nights are cheaper and better for technical practice.",
+      "volatility": "event-driven"
+    },
+    "budget_tips": [
+      "Avoid ordering glass-bottled drinks; they are often restricted on the dance floor, leading to 'lost' half-full drinks.",
+      "Stick to 'Aguardiente' shots for a culturally authentic, lower-cost kick."
+    ],
     "social_dynamics": "Extremely social; frequent partner swapping; visible 'levels' of expertise on the floor.",
     "typical_drinks": ["Aguardiente", "Rum & Coke", "Water"],
     "solo_comfort": 9,
@@ -175,6 +247,18 @@
       "label": "Athletic Social",
       "description": "Bouncy and energetic. Interaction is often lighthearted and less 'intimate' than Latin styles."
     },
+    "economic_vibe": "inclusive",
+    "pacing_cost_factor": 2,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "Vintage 'Theme Nights' may have higher entry fees due to live big bands.",
+      "off_peak_note": "Weekly community dances are usually flat-rate and very affordable.",
+      "volatility": "stable"
+    },
+    "budget_tips": [
+      "Craft sodas are a staple here; they are cheaper than beer and fit the vintage aesthetic.",
+      "Many swing communities are non-profits; ask about 'volunteer for entry' programs."
+    ],
     "social_dynamics": "Vintage aesthetic common; very welcoming to beginners; community-centric.",
     "typical_drinks": ["Craft Soda", "Beer", "Old Fashioned"],
     "solo_comfort": 9,
@@ -199,6 +283,18 @@
       "label": "Spectator Focused",
       "description": "Primary interaction is with the stage. Socializing is incidental or happens in lines."
     },
+    "economic_vibe": "exclusive",
+    "pacing_cost_factor": 5,
+    "spending_rhythm": "sporadic",
+    "seasonal_context": {
+      "peak_note": "Summer festival season is the peak 'Wallet Risk' period; pricing is aggressive.",
+      "off_peak_note": "Indoor club-tour shows have more predictable (though still high) pricing.",
+      "volatility": "seasonal-peak"
+    },
+    "budget_tips": [
+      "Use the 'Dual Drink' strategy: Buy two at once to avoid paying the 'Time Tax' of standing in line twice.",
+      "Eat a massive meal in the parking lot/pre-entry; festival food is the fastest way to blow a budget."
+    ],
     "social_dynamics": "Shared fandom; 'we're all here for the band' mentality makes it easy to chat with neighbors.",
     "typical_drinks": ["Overpriced Beer", "Canned Cocktails", "Water"],
     "solo_comfort": 10,
@@ -224,6 +320,18 @@
       "label": "High Verbal Interaction",
       "description": "Heavy focus on networking and life-story sharing. Expect to answer 'where are you from?' frequently."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 2,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "High season for tourism brings 'tourist pricing' to the cafes hosting these events.",
+      "off_peak_note": "Low season meetups are often hosted in cheaper, more authentic local spots.",
+      "volatility": "seasonal-peak"
+    },
+    "budget_tips": [
+      "These are often 'Pay for what you consume'—it’s easy to over-order while talking. Keep your tab open to track it.",
+      "Choose the 'Local Lager' over imports to blend in and save significant cash."
+    ],
     "social_dynamics": "Inclusive but transient; high turnover of people; immediate common ground (travel/work).",
     "typical_drinks": ["Local Lager", "Coffee", "Cocktails"],
     "solo_comfort": 10,
@@ -249,6 +357,18 @@
       "label": "Non-Verbal Social",
       "description": "Strict 'no-talking' rules on the floor. Interaction is purely through movement and eye contact."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 1,
+    "spending_rhythm": "nursing",
+    "seasonal_context": {
+      "peak_note": "Weekend morning sessions are the most popular and may require pre-booking.",
+      "off_peak_note": "Weekday evening 'jams' are often smaller and offer 'sliding scale' pricing.",
+      "volatility": "stable"
+    },
+    "budget_tips": [
+      "Since alcohol is banned, your budget is purely for entry and Cacao. One cup is usually enough for the whole 'journey'.",
+      "Bring a reusable bottle; filtered water stations are standard in these communities."
+    ],
     "social_dynamics": "High vulnerability; 'dance like no one is watching'; communal but solitary.",
     "typical_drinks": ["Cacao", "Kombucha", "Electrolyte Water"],
     "solo_comfort": 9,
@@ -273,6 +393,18 @@
       "label": "Intimate Social",
       "description": "Harder to 'hide' in a small group. Requires active participation in conversation and dining."
     },
+    "economic_vibe": "inclusive",
+    "pacing_cost_factor": 1,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "Holiday dinners (Nov/Dec) involve higher 'ingredient costs' for your contribution.",
+      "off_peak_note": "Summer potlucks are the cheapest; focus on seasonal produce and outdoor settings.",
+      "volatility": "stable"
+    },
+    "budget_tips": [
+      "The 'Cost of Entry' is your dish. Bring a high-volume, low-cost item (like pasta or salad) to maximize value.",
+      "BYOB means you control your beverage spend entirely."
+    ],
     "social_dynamics": "Domestic; collaborative; high focus on hospitality and shared contribution.",
     "typical_drinks": ["BYOB", "Home-made Punch", "Wine"],
     "solo_comfort": 6,
@@ -298,6 +430,18 @@
       "label": "Observational Social",
       "description": "Low pressure to talk. Most interaction is transactional (buying food) or observational (watching performances)."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 4,
+    "spending_rhythm": "sporadic",
+    "seasonal_context": {
+      "peak_note": "Peak weekend afternoons see 'Surge Pricing' on food stall items.",
+      "off_peak_note": "Sunday evenings (closing time) often see food stalls discounting items to clear stock.",
+      "volatility": "seasonal-peak"
+    },
+    "budget_tips": [
+      "Share 'Small Plates' with a friend to taste more varieties without paying for full meals.",
+      "Carry physical cash; many smaller cultural stalls charge extra for credit card processing."
+    ],
     "social_dynamics": "Family-friendly; community pride; educational and sensory-heavy.",
     "typical_drinks": ["Regional Specialties", "Local Soda", "Imported Beer"],
     "solo_comfort": 10,
@@ -322,6 +466,18 @@
       "label": "Team-Based Social",
       "description": "Inherently collaborative. While you can play solo, the format strongly encourages joining or forming a team."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 2,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "Tournament/Finals nights attract bigger crowds and slower service.",
+      "off_peak_note": "Standard weeknights often have 'Burger & Beer' specials for trivia players.",
+      "volatility": "stable"
+    },
+    "budget_tips": [
+      "Check if the venue offers 'Pitcher Specials' for trivia teams—it’s the most efficient way to drink over 2 hours.",
+      "Order one 'grazing' appetizer (like nachos) for the table to keep the spending rhythm low."
+    ],
     "social_dynamics": "Intellectual teamwork, friendly competition, and shared 'aha!' moments.",
     "typical_drinks": ["Pitchers of Beer", "Cider", "Soda"],
     "solo_comfort": 7,
@@ -346,6 +502,18 @@
       "label": "Performative Social",
       "description": "High visibility. Whether you are singing or cheering, you are part of the 'show'."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 3,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "Friday/Saturday nights have 'Song Minimums' (you must buy a drink to get a song slip).",
+      "off_peak_note": "Weekday karaoke is usually 'Free to Sing' with lower drink prices.",
+      "volatility": "event-driven"
+    },
+    "budget_tips": [
+      "Liquid courage is real, but pace your shots—you don't want to forget the lyrics you paid to sing.",
+      "Stick to 'House' spirits to avoid the 'Premium Performance' tax on high-end cocktails."
+    ],
     "social_dynamics": "Supportive and loud; shared humor; the 'bad' singers are often cheered as much as the 'good' ones.",
     "typical_drinks": ["Liquid Courage (Shots)", "Honey-Lemon Tea", "Long Island Iced Tea"],
     "solo_comfort": 8,
@@ -370,6 +538,18 @@
       "label": "Collective Focus",
       "description": "Socializing is punctuated by the game. Interaction is easy because you have a constant 'topic' on the screen."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 4,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "Championship games (Super Bowl, World Cup) see 'Event Menus' with higher prices.",
+      "off_peak_note": "Regular season games often feature 'Bucket' specials for groups.",
+      "volatility": "event-driven"
+    },
+    "budget_tips": [
+      "Buckets of beer (5-6 bottles) are almost always cheaper than individual orders during the game.",
+      "Arrive early for 'Pre-Game' happy hour to lock in lower prices before the first whistle."
+    ],
     "social_dynamics": "High-fiving strangers; shared frustration/elation; rhythmic chanting or cheering.",
     "typical_drinks": ["Domestic Drafts", "Wings & Platters", "Buckets of Beer"],
     "solo_comfort": 9,
@@ -393,6 +573,18 @@
       "label": "Supportive Spectator",
       "description": "Low pressure for the audience, but high respect for the performer is expected."
     },
+    "economic_vibe": "inclusive",
+    "pacing_cost_factor": 2,
+    "spending_rhythm": "nursing",
+    "seasonal_context": {
+      "peak_note": "Touring 'Headliner' nights may add a small cover charge to the bar.",
+      "off_peak_note": "Standard 'Sign-up' nights are the ultimate low-cost social entertainment.",
+      "volatility": "stable"
+    },
+    "budget_tips": [
+      "Many open mics have a 'One Drink Minimum' to support the venue; pick a slow-sipping beer to last the set.",
+      "Bring cash for the 'Tip Jar'—it's high-value karma for a low financial cost."
+    ],
     "social_dynamics": "Eclectic; creative; supportive but can have 'cringe' moments that create a shared sense of empathy in the room.",
     "typical_drinks": ["Cheap Beer", "Coffee", "Well-Drinks"],
     "solo_comfort": 10,

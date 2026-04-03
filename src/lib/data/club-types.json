@@ -13,6 +13,18 @@
       "label": "High Pressure",
       "description": "The 'current' of the dance floor is strong; standing still can feel socially awkward in high-traffic zones."
     },
+    "economic_vibe": "exclusive",
+    "pacing_cost_factor": 5,
+    "spending_rhythm": "high-velocity",
+    "seasonal_context": {
+      "peak_note": "Holiday weekends and 'Guest DJ' nights often trigger mandatory coat-checks and higher drink minimums.",
+      "off_peak_note": "Local resident nights usually have waived covers before 11 PM.",
+      "volatility": "event-driven"
+    },
+    "budget_tips": [
+      "Identify the 'Free Water' station immediately; bottled water here can cost as much as a beer.",
+      "Avoid 'Table Service' zones to prevent incidental 'minimum spend' pressure."
+    ],
     "social_expectations": "Focus is primarily on the DJ; verbal conversation is minimal on the dance floor.",
     "solo_comfort": 6,
     "solo_tips": ["Identify 'chill-out' zones immediately upon arrival.", "Ear protection is essential for maintaining solo comfort."],
@@ -38,6 +50,18 @@
       "label": "Music-First",
       "description": "The focus is on the sound and light production. Socializing is optional and often happens in 'chill' side-rooms."
     },
+    "economic_vibe": "premium",
+    "pacing_cost_factor": 4,
+    "spending_rhythm": "sporadic",
+    "seasonal_context": {
+      "peak_note": "Large-scale 'Massives' see significant price hikes in transport and hydration.",
+      "off_peak_note": "Warehouse-style local raves often have lower overhead and consistent pricing.",
+      "volatility": "seasonal-peak"
+    },
+    "budget_tips": [
+      "Cash is often faster but cards are safer; bring a small amount of cash for 'emergency hydration'.",
+      "Pre-game your electrolytes to avoid the 'Festival Tax' on sports drinks."
+    ],
     "social_expectations": "PLUR (Peace, Love, Unity, Respect) culture; high acceptance of solo dancers and unique fashion.",
     "solo_comfort": 9,
     "solo_tips": ["Flow toys (like LED hoops) are a great non-verbal way to exist in the space.", "Check the 'set times' so you don't burn out before the headliner."],
@@ -64,6 +88,18 @@
       "label": "Group-Centric",
       "description": "High energy on the floor. While groups are common, solo attendees can easily blend into the collective choreography."
     },
+    "economic_vibe": "premium",
+    "pacing_cost_factor": 3,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "Diwali and Holi themed nights see peak attendance and 'Premium Ticket' requirements.",
+      "off_peak_note": "Standard monthly socials are more predictable and spacious.",
+      "volatility": "event-driven"
+    },
+    "budget_tips": [
+      "Group-sharing a 'Pitcher' or bottle (if safe) is often more cost-effective than individual complex cocktails.",
+      "Check if your ticket includes a 'Welcome Drink' to save on your first round."
+    ],
     "social_dynamics": "Performative and celebratory; heavy focus on dancing and fashion.",
     "social_expectations": "Expressive dancing, group energy, and fashion-forward presentation.",
     "typical_drinks": ["Cocktails", "Beer", "Mocktails"],
@@ -97,6 +133,18 @@
       "label": "Socially Charged",
       "description": "Highly performative; there is often a 'see and be seen' atmosphere that can feel isolating for solo guests."
     },
+    "economic_vibe": "exclusive",
+    "pacing_cost_factor": 5,
+    "spending_rhythm": "high-velocity",
+    "seasonal_context": {
+      "peak_note": "New Year's Eve and Graduation season see the highest 'Surge' in cover charges and ride-share costs.",
+      "off_peak_note": "Thursday nights often offer 'No Cover' for locals or students.",
+      "volatility": "seasonal-peak"
+    },
+    "budget_tips": [
+      "The 'Surge' isn't just at the bar—budget 2x for your ride home during the 2 AM rush.",
+      "Stick to 'Well' drinks; 'Call' spirits are significantly marked up for the 'Top 40' crowd."
+    ],
     "social_expectations": "Group-heavy environment; dress codes are usually strictly enforced.",
     "solo_comfort": 5,
     "solo_tips": ["The bar is your safe haven; bartenders here are used to solo guests waiting for friends.", "Look for clubs with a 'patio' area where the music is lower and conversation is easier."],
@@ -123,6 +171,18 @@
       "label": "Fan-Driven Social",
       "description": "Shared fandom lowers the barrier to entry. Expect people to dance in sync or cheer for specific music video moments."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 2,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "New group 'Comeback' nights or major tour anniversaries drive higher attendance.",
+      "off_peak_note": "Regular fan-run nights are very stable and community-priced.",
+      "volatility": "stable"
+    },
+    "budget_tips": [
+      "These events often have 'Freebies' (tradeables)—bring your own to participate without spending on merch.",
+      "Check if there's a 'Non-Alcoholic' discount; many K-Pop fans prioritize the dance floor over the bar."
+    ],
     "social_expectations": "High energy and mutual respect; often feels more like a convention than a dark club.",
     "solo_comfort": 9,
     "solo_tips": ["If you know the 'fan chants' or choreography, join in! It's the ultimate icebreaker.", "Carry a lightstick if you have one; it’s a beacon for other solo fans."],
@@ -149,6 +209,18 @@
       "label": "Rhythmic Engagement",
       "description": "The music is designed for movement. Socializing is fluid and often happens through shared rhythm on the floor."
     },
+    "economic_vibe": "premium",
+    "pacing_cost_factor": 4,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "International artist tours significantly increase the entry price and 'Bottle Service' demand.",
+      "off_peak_note": "Local DJ nights are the best value for 'Vibe-to-Cost' ratio.",
+      "volatility": "event-driven"
+    },
+    "budget_tips": [
+      "Arriving before midnight often saves 50% on the cover charge.",
+      "Dress codes are strictly enforced—don't lose your entry fee by wearing the wrong shoes."
+    ],
     "social_expectations": "High emphasis on style and 'vibe'; inclusive but high-energy.",
     "solo_comfort": 8,
     "solo_tips": ["Don't be afraid to dance alone; the music is the centerpiece and everyone is focused on the 'groove'.", "Finding a spot near the DJ booth often puts you in the center of the best energy."],
@@ -173,7 +245,18 @@
       "level": "low",
       "label": "Internalized Focus",
       "description": "Very low pressure to interact. The steady 4/4 beat allows for a 'meditative' solo dance experience."
+    },"economic_vibe": "standard",
+    "pacing_cost_factor": 2,
+    "spending_rhythm": "nursing",
+    "seasonal_context": {
+      "peak_note": "Underground events during 'Music Week' conferences see high volatility.",
+      "off_peak_note": "Sunday 'After-hours' or weekday minimal sets are the most 'Budget-Friendly'.",
+      "volatility": "stable"
     },
+    "budget_tips": [
+      "The focus is internal—you can comfortably 'nurse' a single high-quality drink for a long time.",
+      "Skip the fancy cocktails; the dark environment makes 'simple' drinks (Soda/Lime/Spirit) safer and cheaper."
+    ],
     "social_expectations": "Anonymity is respected; talking on the dance floor is often frowned upon.",
     "solo_comfort": 10,
     "solo_tips": ["The 'dark corner' or the rail right in front of the DJ is perfect for solo immersion.", "Let the rhythm take over; no one is judging your moves in a techno room."],
@@ -199,6 +282,18 @@
       "label": "Fluid Pressure",
       "description": "Easier than a club but more intense than a bar. You can choose to be a spectator at a table or a participant on the small floor."
     },
+    "economic_vibe": "standard",
+    "pacing_cost_factor": 3,
+    "spending_rhythm": "steady",
+    "seasonal_context": {
+      "peak_note": "Late-night transitions (after 11 PM) are when 'Bar' pricing shifts to 'Club' logic.",
+      "off_peak_note": "Early-evening 'Happy Hour' is the best time for solo reconnaissance.",
+      "volatility": "stable"
+    },
+    "budget_tips": [
+      "Take advantage of 'No Cover' before the DJ starts to lock in a spot without the entry tax.",
+      "Use this as a 'Transition' spot; drink prices are usually 20% lower than full nightclubs."
+    ],
     "social_expectations": "A mix of 'chilling' and 'partying'; more 'mingle-friendly' than a standard club.",
     "solo_comfort": 8,
     "solo_tips": ["Claim a spot at the bar rail to maintain a 'home base' while watching the dance floor.", "Great for 'club-light' energy without the commitment of a full venue."],
