@@ -5,7 +5,6 @@
     "slug": "edm-club",
     "type": "club",
     "global_availability": "regional",
-    "is_dance": true,
     "vibe": ["bass-heavy", "immersive", "high-energy"],
     "music_identity": ["electronic", "house", "techno"],
     "interaction_intensity": {
@@ -42,7 +41,6 @@
     "slug": "rave-electronic-event",
     "type": "club",
     "global_availability": "regional",
-    "is_dance": true,
     "vibe": ["industrial", "neon", "maximalist", "unfiltered"],
     "music_identity": ["techno", "trance", "hardstyle", "drum and bass"],
     "interaction_intensity": {
@@ -79,7 +77,6 @@
     "slug": "bollywood-club-night",
     "type": "club",
     "global_availability": "rare",
-    "is_dance": true,
     "is_cultural": true,
     "vibe": ["glamorous", "high-production", "maximalist", "joyful"],
     "music_identity": ["bollywood", "urban desi", "edm-fusion"],
@@ -125,7 +122,7 @@
     "slug": "top-40-club",
     "type": "club",
     "global_availability": "widespread",
-    "is_dance": true,
+    "is_lounge": true,
     "vibe": ["commercial", "polished", "predictable", "flashy"],
     "music_identity": ["pop", "hip-hop", "charts"],
     "interaction_intensity": {
@@ -162,7 +159,6 @@
     "slug": "k-pop-night",
     "type": "club",
     "global_availability": "regional",
-    "is_dance": true,
     "is_cultural": true,
     "vibe": ["vibrant", "coordinated", "enthusiastic", "welcoming"],
     "music_identity": ["k-pop", "k-hip-hop"],
@@ -200,8 +196,8 @@
     "slug": "afrobeats-night",
     "type": "club",
     "global_availability": "regional",
-    "is_dance": true,
     "is_cultural": true,
+    "is_lounge": true,
     "vibe": ["rhythmic", "soulful", "stylish", "unapologetic"],
     "music_identity": ["afrobeats", "amapiano", "dancehall"],
     "interaction_intensity": {
@@ -238,7 +234,7 @@
     "slug": "house-techno-room",
     "type": "club",
     "global_availability": "widespread",
-    "is_dance": true,
+    "is_lounge": true,
     "vibe": ["minimalist", "dark", "steady", "hypnotic"],
     "music_identity": ["deep house", "minimal techno", "tech-house"],
     "interaction_intensity": {
@@ -274,7 +270,7 @@
     "slug": "nightclub-style-bar",
     "type": "bar",
     "global_availability": "widespread",
-    "is_dance": true,
+    "is_lounge": true,
     "vibe": ["hybrid", "dimly-lit", "social", "transitional"],
     "music_identity": ["house", "remixes", "open-format"],
     "interaction_intensity": {

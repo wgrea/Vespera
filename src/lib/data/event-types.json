@@ -5,6 +5,7 @@
     "slug": "bar-crawls-pub-crawls",
     "type": "event",
     "global_availability": "regional",
+    "is_fluid": true,
     "plan_night_around": false,
     "interaction_intensity": {
       "level": "high",
@@ -128,6 +129,8 @@
     "global_availability": "regional",
     "is_cultural": true,
     "is_dance": true,
+    "is_fluid": true,
+    "is_lounge": true,
     "plan_night_around": true,
     "interaction_intensity": {
       "level": "high",
@@ -166,6 +169,7 @@
     "global_availability": "rare",
     "is_dance": true,
     "is_cultural": true,
+    "is_lounge": true,
     "plan_night_around": true,
     "interaction_intensity": {
       "level": "very-high",
@@ -204,6 +208,8 @@
     "global_availability": "widespread",
     "is_cultural": true,
     "is_dance": true,
+    "is_fluid": true,
+    "is_lounge": true,
     "plan_night_around": true,
     "interaction_intensity": {
       "level": "high",
@@ -277,6 +283,7 @@
     "slug": "concert-music-festival",
     "type": "event",
     "global_availability": "widespread",
+    "is_fluid": true,
     "plan_night_around": true,
     "interaction_intensity": {
       "level": "low-moderate",
@@ -314,6 +321,7 @@
     "type": "event",
     "global_availability": "rare",
     "is_cultural": true,
+    "is_fluid": true,
     "plan_night_around": false,
     "interaction_intensity": {
       "level": "high",
@@ -351,6 +359,7 @@
     "type": "event",
     "global_availability": "rare",
     "is_dance": true,
+    "is_fluid": true,
     "plan_night_around": true,
     "interaction_intensity": {
       "level": "low-verbal",
@@ -387,6 +396,7 @@
     "slug": "potluck-private-dinner",
     "type": "event",
     "global_availability": "widespread",
+    "is_lounge": true,
     "plan_night_around": true,
     "interaction_intensity": {
       "level": "high",
@@ -460,6 +470,7 @@
     "slug": "pub-trivia",
     "type": "event",
     "global_availability": "widespread",
+    "is_lounge": true,
     "plan_night_around": true,
     "interaction_intensity": {
       "level": "moderate-high",
@@ -496,6 +507,7 @@
     "slug": "karaoke-night",
     "type": "event",
     "global_availability": "widespread",
+    "is_lounge": true,
     "plan_night_around": true,
     "interaction_intensity": {
       "level": "high",
@@ -532,6 +544,8 @@
     "slug": "sports-viewing-party",
     "type": "event",
     "global_availability": "widespread",
+    "is_fluid": true,
+    "is_lounge": true,
     "plan_night_around": true,
     "interaction_intensity": {
       "level": "moderate",

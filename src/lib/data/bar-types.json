@@ -5,6 +5,8 @@
     "slug": "dive-bar",
     "type": "bar",
     "global_availability": "widespread",
+    "is_fluid": true,
+    "is_lounge": true,
     "vibe": ["dim lighting", "grungy", "authentic", "no-frills"],
     "interaction_intensity": {
       "level": "low",
@@ -41,6 +43,7 @@
     "slug": "irish-pub",
     "type": "bar",
     "global_availability": "regional",
+    "is_fluid": true,
     "is_cultural": true,
     "vibe": ["warm", "wooden", "welcoming", "cozy"],
     "interaction_intensity": {
@@ -114,6 +117,8 @@
     "slug": "hifi-listening-bar",
     "type": "bar",
     "global_availability": "rare",
+    "is_fluid": true,
+    "is_lounge": true,
     "vibe": ["mid-century modern", "focused", "refined", "acoustic-treated"],
     "interaction_intensity": {
       "level": "low",
@@ -150,6 +155,7 @@
     "slug": "wine-tasting-brewery-tour",
     "type": "bar",
     "global_availability": "regional",
+    "is_lounge": true,
     "vibe": ["educational", "artisanal", "industrial", "scenic"],
     "interaction_intensity": {
       "level": "moderate",
@@ -187,6 +193,7 @@
     "type": "bar",
     "global_availability": "rare",
     "is_cultural": true,
+    "is_lounge": true,
     "vibe": ["energetic", "community-focused", "culinary-heavy"],
     "interaction_intensity": {
       "level": "moderate-high",
@@ -223,6 +230,7 @@
     "slug": "barcade",
     "type": "bar",
     "global_availability": "widespread",
+    "is_fluid": true,
     "vibe": ["nostalgic", "kinetic", "neon", "playful"],
     "interaction_intensity": {
       "level": "low-moderate",
@@ -259,6 +267,7 @@
     "slug": "latin-bar-club",
     "type": "club",
     "global_availability": "widespread",
+    "is_lounge": true,
     "is_cultural": true,
     "is_dance": true,
     "vibe": ["passionate", "warm", "unpretentious", "rhythmic"],

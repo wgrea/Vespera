@@ -103,8 +103,10 @@ export interface BaseVenue {
   slug: string;
   type: 'bar' | 'club' | 'event';
   is_cultural?: boolean;
-  global_availability?: GlobalAvailability;
   is_dance?: boolean;
+  is_fluid?: boolean;  // "Nobody will see you move or leave"
+  is_lounge?: boolean; // "Couch/booth-heavy, low-energy"
+  global_availability?: GlobalAvailability;
 
   // Analyze Page
   vibe: string[];
