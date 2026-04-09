@@ -2,7 +2,7 @@
 <script lang="ts">
   import AnalyzeLayout from '$lib/components/analyze/Layout.svelte';
   import AnalyzeCTA from '$lib/components/analyze/CTA.svelte';
-  import BarAnalyzeDetails from '$lib/components/analyze/BarDetails.svelte';
+  import Details from '$lib/components/analyze/Details.svelte';
   import Toggle from '$lib/components/Toggle.svelte';
   import { findRelatedDrinks } from '$lib/utils/drinks';
 
@@ -13,6 +13,6 @@
 </script>
 
 <AnalyzeLayout theme="green" title={bar.name} backHref="/bars">
-  <BarAnalyzeDetails {bar} />
+<Details item={data.bar} />
   <AnalyzeCTA href={`/bars/${bar.slug}/assess`} />
 </AnalyzeLayout>

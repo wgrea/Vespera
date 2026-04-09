@@ -2,8 +2,7 @@
 <script lang="ts">
   import AnalyzeLayout from '$lib/components/analyze/Layout.svelte';
   import AnalyzeCTA from '$lib/components/analyze/CTA.svelte';
-  import EventAnalyzeDetails from '$lib/components/analyze/EventDetails.svelte';
-  import Toggle from '$lib/components/Toggle.svelte';
+import Details from '$lib/components/analyze/Details.svelte';
   import { findRelatedDrinks } from '$lib/utils/drinks';
 
   export let data;
@@ -13,6 +12,6 @@
 </script>
 
 <AnalyzeLayout theme="yellow" title={event.name} backHref="/events">
-  <EventAnalyzeDetails {event} />
+<Details item={data.event} />
   <AnalyzeCTA href={`/events/${event.slug}/assess`} />
 </AnalyzeLayout>

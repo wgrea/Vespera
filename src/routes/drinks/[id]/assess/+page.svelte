@@ -2,7 +2,7 @@
 <script lang="ts">
   import AssessLayout from '$lib/components/safety/AssessLayout.svelte';
   import SafetyCard from '$lib/components/safety/Card.svelte';
-  import DrinkDetails from '$lib/components/safety/DrinkDetails.svelte';
+  import DrinkDetails from '$lib/components/safety/Drink.svelte';
   import { calculateRisk } from '$lib/utils/safety';
 
   export let data;

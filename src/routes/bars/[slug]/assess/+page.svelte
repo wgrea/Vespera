@@ -1,7 +1,7 @@
 <!-- src/routes/bars/[slug]/assess/+page.svelte -->
 <script lang="ts">
   import AssessLayout from '$lib/components/safety/AssessLayout.svelte';
-  import BarDetails from '$lib/components/safety/BarDetails.svelte';
+  import Details from '$lib/components/safety/Details.svelte';
   import { calculateRisk } from '$lib/utils/safety';
 
   export let data;
@@ -16,5 +16,5 @@
   backHref={`/bars/${bar.slug}`}
 >
 
-  <BarDetails {bar} />
+  <Details item={data.bar} />
 </AssessLayout>

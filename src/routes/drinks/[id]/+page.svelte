@@ -2,7 +2,7 @@
 <script lang="ts">
   import AnalyzeLayout from '$lib/components/analyze/Layout.svelte';
   import AnalyzeCTA from '$lib/components/analyze/CTA.svelte';
-  import DrinkAnalyzeDetails from '$lib/components/analyze/DrinkDetails.svelte';
+  import DrinkAnalyzeDetails from '$lib/components/analyze/Drink.svelte';
 
   export let data: { drink: any };
   const drink = data.drink;

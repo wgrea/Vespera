@@ -1,8 +1,7 @@
 <!-- src/routes/clubs/[slug]/assess/+page.svelte -->
 <script lang="ts">
   import AssessLayout from '$lib/components/safety/AssessLayout.svelte';
-  import SafetyCard from '$lib/components/safety/Card.svelte';
-  import ClubDetails from '$lib/components/safety/ClubDetails.svelte';
+  import Details from '$lib/components/safety/Details.svelte';
   import { calculateRisk } from '$lib/utils/safety';
 
   export let data;
@@ -16,5 +15,5 @@
   title={`Safety Assessment — ${club.name}`}
   backHref={`/clubs/${club.slug}`}
 >
-  <ClubDetails {club} />
+<Details item={data.club} />
 </AssessLayout>

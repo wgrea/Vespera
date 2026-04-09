@@ -2,8 +2,7 @@
 <script lang="ts">
   import AnalyzeLayout from '$lib/components/analyze/Layout.svelte';
   import AnalyzeCTA from '$lib/components/analyze/CTA.svelte';
-  import ClubAnalyzeDetails from '$lib/components/analyze/ClubDetails.svelte';
-  import Toggle from '$lib/components/Toggle.svelte';
+import Details from '$lib/components/analyze/Details.svelte';
   import { findRelatedDrinks } from '$lib/utils/drinks';
 
   export let data;
@@ -13,7 +12,7 @@
 </script>
 
 <AnalyzeLayout theme="purple" title={club.name} backHref="/clubs">
-  <ClubAnalyzeDetails {club} />
+<Details item={data.club} />
   <AnalyzeCTA href={`/clubs/${club.slug}/assess`} />
 </AnalyzeLayout>
 
